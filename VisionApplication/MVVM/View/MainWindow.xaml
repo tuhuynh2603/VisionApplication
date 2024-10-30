@@ -1,0 +1,742 @@
+﻿<Window x:Class="VisionApplication.MVVM.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:avalonDock="http://schemas.xceed.com/wpf/xaml/avalondock"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:VisionApplication.MVVM.View"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:view="clr-namespace:VisionApplication.MVVM.View"
+        xmlns:viewmodel="clr-namespace:VisionApplication.MVVM.ViewModel"
+        xmlns:template="clr-namespace:VisionApplication.MVVM" 
+        xmlns:hardware="clr-namespace:VisionApplication.Hardware" 
+        xmlns:ribbontabitems="clr-namespace:VisionApplication.MVVM.View.Template"
+        xmlns:behaviors="clr-namespace:VisionApplication.MVVM.Behaviors"
+        Height="900" Width="1600"
+        WindowState="{Binding windowState}" WindowStyle="None" 
+        AllowDrop="True"
+        Title="MainWindow"
+        MouseDown="Window_MouseDown"
+        Margin="10">
+
+    <Window.InputBindings>
+        <KeyBinding x:Name="KeyBinding_b"   Key="b" Command="{Binding btn_Binarize_ClickCmd}"></KeyBinding>
+        <KeyBinding x:Name="KeyBinding_p"   Key="p" Command="{Binding btn_Pixel_Ruler_ClickCmd}"></KeyBinding>
+        <KeyBinding x:Name="KeyBinding_X_Shift"   Key="X" Modifiers="Shift" Command="{Binding btn_Clear_CommCmd}"></KeyBinding>
+        <KeyBinding x:Name="KeyBinding_O"   Key="O" Command="{Binding btn_ShowOverlay_ClickCmd}"></KeyBinding>
+    </Window.InputBindings>
+    <Window.DataContext>
+        <viewmodel:MainWindowVM></viewmodel:MainWindowVM>
+    </Window.DataContext>
+
+    <Grid Background="#FF322F2E" Margin="0,0,0,0">
+        <!--Title-->
+        <!--<Grid Height="30" VerticalAlignment="Top" Background="Black">
+        </Grid>-->
+        <!--Tool-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="140"/>
+                <RowDefinition Height="1*"/>
+
+            </Grid.RowDefinitions>
+            <Border BorderBrush="SteelBlue" BorderThickness="1">
+
+                <Border.Background>
+                    <LinearGradientBrush EndPoint="0.1,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,1">
+                        <GradientStop Color="Black" Offset="0.1139"/>
+                        <GradientStop Color="#FF352F2E"  Offset="0.8939"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <Grid Grid.Row="0">
+
+                    <Grid.Resources>
+                        <DataTemplate DataType="{x:Type viewmodel:TitleBarVM}">
+                            <view:TitleBar/>
+                        </DataTemplate>
+                    </Grid.Resources>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal" Grid.Column="0">
+                        <Image  Source="..\..\Resources\ICONHD.png" Width="30" Height="30"></Image>
+                        <Label Content="Tap and Reel Packing Machine" FontSize="15" FontFamily="Microsoft New Tai Lue" Foreground="WhiteSmoke"></Label>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+
+                        <StackPanel  HorizontalAlignment="Right" VerticalAlignment="Center"
+                                    Orientation="Horizontal" Height="30">
+
+                            <!--Manage Recipe-->
+                            <!--<Border BorderBrush="#707070" Width="380" BorderThickness="1" 
+                                                VerticalAlignment="Center"
+                                                CornerRadius="5">-->
+                            <!--Recipe ID-->
+
+
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+
+                                <TextBlock  Text="Lot ID: " Margin="0 0 0 0"
+                                                        Width="Auto" Foreground="#00BFFF"
+                                                        FontSize="20" FontWeight="Bold"
+                                                        VerticalAlignment="Center"  />
+
+                                <TextBlock  x:Name="text_LotID"
+
+                                                            Text="{Binding Path=m_strCurrentLotID,  Mode=TwoWay, UpdateSourceTrigger= PropertyChanged}"
+                                                            Width="Auto" MinWidth="150" Foreground="WhiteSmoke"
+                                                            Background="DarkSlateGray"
+                                                            FontSize="20" FontWeight="Bold"
+                                                            VerticalAlignment="Center">
+                                    
+                                                            <i:Interaction.Triggers>
+                                                                <i:EventTrigger EventName="MouseLeftButtonDown">
+                                                                    <i:InvokeCommandAction Command="{Binding text_LotID_MouseLeftButtonDown}" />
+                                                                </i:EventTrigger>
+                                                            </i:Interaction.Triggers>
+
+                                </TextBlock>
+                                <!--Recipe Name-->
+                                <TextBlock Text="Recipe: "
+                                                         Margin="18,0,0,0"
+                                                         Width="Auto" Foreground="#00BFFF"
+                                                         FontSize="20" FontWeight="Bold"
+                                                         VerticalAlignment="Center">
+                                </TextBlock>
+
+                                <RibbonToggleButton x:Name="btn_LoadRecipe" 
+                                                  Style="{DynamicResource ToggleButtonStyle1}"
+                                                  Content="None"                                     
+                                                  MinWidth="80"
+                                                  FontFamily="Microsoft New Tai Lue"
+                                                  VerticalAlignment="Center"
+                                                  FontSize="20" Width="auto"
+                                                  Command="{Binding btn_LoadRecipe_ClickCmd}"
+                                                  Foreground="GhostWhite" 
+                                                  MouseOverBackground="{StaticResource BgButton}" 
+                                                  CheckedBackground="{StaticResource BgButton}"></RibbonToggleButton>
+
+
+
+                            </StackPanel>
+                            <!--</Border>-->
+
+
+                            <Label Content="Access Level:"
+                                       Foreground="#00BFFF"
+                                       VerticalAlignment="Center"
+                                       VerticalContentAlignment="Center"
+                                       FontSize="18" 
+                                       Margin="18 0 0 0"
+                                       FontFamily="Microsoft New Tai Lue"/>
+
+                            <TextBlock x:Name="acessLevel"  
+                                       Text="None"                       
+                                       MinWidth="50"
+                                       FontFamily="Microsoft New Tai Lue"
+                                       VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"
+                                       TextAlignment="Center"
+                                       FontSize="20" 
+                                       Background="DarkSlateGray"            
+                                       Width="auto"                                   
+                                       Foreground="GhostWhite" />
+                            <!--login button-->
+                            <Label Content="User:"
+                                       Foreground="#00BFFF"
+                                       VerticalAlignment="Center"                      
+                                       FontSize="20" 
+                                       Margin="18 0 0 0" 
+                                       FontFamily="Microsoft New Tai Lue"/>
+
+                            <RibbonToggleButton x:Name="btnLogIn" 
+                                                  Style="{DynamicResource ToggleButtonStyle1}"
+                                                  Content="None"                                     
+                                                  MinWidth="80" 
+                                                  FontFamily="Microsoft New Tai Lue"
+                                                  VerticalAlignment="Center"
+                                                  FontSize="20" Width="auto"
+                                                  Foreground="GhostWhite" 
+                                                  MouseOverBackground="{StaticResource BgButton}" 
+                                                  CheckedBackground="{StaticResource BgButton}">
+
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="Unchecked">
+                                        <i:InvokeCommandAction Command="{Binding btn_LogIn_UncheckedCmd}" />
+                                    </i:EventTrigger>
+                                    <i:EventTrigger EventName="Checked">
+                                        <i:InvokeCommandAction Command="{Binding btn_LogIn_CheckedCmd}" />
+                                    </i:EventTrigger>
+
+                                </i:Interaction.Triggers>
+
+                                <!--<RibbonToggleButton.Triggers>
+                                    <EventTrigger RoutedEvent="RibbonToggleButton.Checked">
+                                        <BeginStoryboard Storyboard="{StaticResource sb_OpenDialogUC}"></BeginStoryboard>
+                                    </EventTrigger>
+                                    <EventTrigger RoutedEvent="RibbonToggleButton.Unchecked">
+                                        <BeginStoryboard Storyboard="{StaticResource sb_CloseDialogUC}"></BeginStoryboard>
+                                    </EventTrigger>
+                                </RibbonToggleButton.Triggers>-->
+                            </RibbonToggleButton>
+
+                        </StackPanel>
+
+
+
+                        <ContentControl Content="{Binding mTitleBarVM}" Grid.Column="1"/>
+
+                        <!--<view:TitleBar Grid.Column="1" DataContext="{Binding mTitleBarVM}"/>-->
+
+                    </StackPanel>
+
+                </Grid>
+
+            </Border>
+
+
+
+            <Grid x:Name="controllTabPanel" Grid.Row="1" VerticalAlignment="Top">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition  Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" Orientation="Horizontal" >
+                    <TabControl x:Name="tab_controls" 
+                                             BorderBrush="#FF322F2E">
+                        <TabControl.Background>
+                            <LinearGradientBrush EndPoint="0.5,0.03" 
+                                                        MappingMode="RelativeToBoundingBox" 
+                                                        StartPoint="0.5,0">
+                                <GradientStop Color="#FF342F2E" Offset="0.997"/>
+                                <GradientStop Color="Transparent" Offset="0.919"/>
+                            </LinearGradientBrush>
+                        </TabControl.Background>
+
+                        <TabItem Name="tab_Hardware_view" Header="HARDWARE">
+                            <StackPanel Orientation="Horizontal" 
+                                            IsEnabled="True" >
+                                <RibbonGroup Name="hardware_group">
+                                    <RibbonGroup.Style>
+                                        <Style TargetType="RibbonGroup">
+                                            <Setter Property="FontSize" Value="12"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Path=IsUseSmallIcon, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" Value="True">
+                                                    <Setter Property="FontSize" Value="11"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </RibbonGroup.Style>
+
+                                    <RibbonGroup.Header>
+                                        <TextBlock Text="" Name="groupHardware"
+                                                        FontFamily="Microsoft New Tai Lue"
+                                                        Foreground="#FFD6F9FF" FontSize="13"
+                                                        FontWeight="Bold">
+                                            <TextBlock.Effect>
+                                                <BlurEffect Radius="0.1"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                    </RibbonGroup.Header>
+
+                                    <RibbonButton Content="1" Width="0" Height="50"/>
+
+                                    <Grid Margin="0,0,0,-30">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="5*"></RowDefinition>
+                                            <RowDefinition Height="3*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <Grid Grid.Row="0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition></ColumnDefinition>
+                                                <ColumnDefinition></ColumnDefinition>
+                                            </Grid.ColumnDefinitions>
+                                            <RibbonToggleButton Name="btn_stream_camera" Grid.Column="0"
+                                                        Label="Stream Camera"
+                                                        LargeImageSource="..\..\Resources\camera-custom.png" Foreground="GhostWhite"
+                                                        CheckedBackground="{StaticResource CheckedButtonStyle}"
+                                                        MouseOverBackground="{StaticResource MouseOverButtonStyle}"
+                                                        Width="auto">
+                                                <i:Interaction.Triggers>
+                                                    <i:EventTrigger EventName="Unchecked">
+                                                        <i:InvokeCommandAction Command="{Binding btn_stream_camera_UnCheckedCmd}" />
+                                                    </i:EventTrigger>
+                                                    <i:EventTrigger EventName="Checked">
+                                                        <i:InvokeCommandAction Command="{Binding btn_stream_camera_CheckedCmd}" />
+                                                    </i:EventTrigger>
+
+                                                </i:Interaction.Triggers>
+
+                                            </RibbonToggleButton>
+
+                                            <RibbonToggleButton Name="btn_camera_setting" Grid.Column="1"
+                                                        Label="Camera Setting"
+                                                        LargeImageSource="..\..\Resources\camera-iris-custom.png" Foreground="GhostWhite"
+                                                        CheckedBackground="{StaticResource CheckedButtonStyle}"
+                                                        MouseOverBackground="{StaticResource MouseOverButtonStyle}"
+                                                        Width="auto">
+
+                                                <i:Interaction.Triggers>
+                                                    <i:EventTrigger EventName="Unchecked">
+                                                        <i:InvokeCommandAction Command="{Binding btn_Camera_Setting_UncheckedCmd}" />
+                                                    </i:EventTrigger>
+                                                    <i:EventTrigger EventName="Checked">
+                                                        <i:InvokeCommandAction Command="{Binding btn_Camera_Setting_CheckedCmd}" />
+                                                    </i:EventTrigger>
+
+                                                </i:Interaction.Triggers>
+
+
+                                            </RibbonToggleButton>
+                                        </Grid>
+
+                                        <Label x:Name="label_Camera_Status" FontSize="15" Grid.Row="1" Content="{Binding labelCameraStatus}" 
+                                               Background="{Binding labelCameraStatusBackground}"
+                                                    VerticalContentAlignment="Top"  HorizontalContentAlignment="Center" >
+                                        </Label>
+
+
+                                    </Grid>
+
+                                    <Grid Margin="0,0,0,-30">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="5*"></RowDefinition>
+                                            <RowDefinition Height="3*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <RibbonToggleButton x:Name="btn_Robot_Controller" Grid.Row="0"
+                                                        Label="ROBOT Controller"
+                                                        LargeImageSource="..\..\Resources/robot-industrial-custom.png"
+                                                        Foreground="White"
+                                                        CheckedBackground="{StaticResource CheckedButtonStyle}"
+                                                        MouseOverBackground="{StaticResource BgButton}"
+                                                        
+                                                        Width="Auto">
+
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="Unchecked">
+                                                    <i:InvokeCommandAction Command="{Binding btn_Robot_Controller_UncheckedCmd}" />
+                                                </i:EventTrigger>
+                                                <i:EventTrigger EventName="Checked">
+                                                    <i:InvokeCommandAction Command="{Binding btn_Robot_Controller_CheckedCmd}" />
+                                                </i:EventTrigger>
+
+                                            </i:Interaction.Triggers>
+
+                                        </RibbonToggleButton>
+
+                                        <Label x:Name="label_Robot_Status" Margin="0,0,0,0" FontSize="15" Grid.Row="1" Content="{Binding labelRobotStatus}" VerticalContentAlignment="Top">
+                                            <Label.Foreground>
+                                                <SolidColorBrush Color="{Binding color_RobotStatus}">
+                                                </SolidColorBrush>
+                                            </Label.Foreground>
+                                        </Label>
+
+                                    </Grid>
+
+
+                                    <Grid Margin="0,0,0,-30">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="5*"></RowDefinition>
+                                            <RowDefinition Height="3*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <RibbonToggleButton x:Name="btn_BarCodeReader_Setting" Grid.Row="0"
+                                                        Label="Barcode Reader Setting"
+                                                        LargeImageSource="..\..\Resources/qrcode-scan-custom.png"
+                                                        Foreground="White"                          
+                                                        IsEnabled="true"
+                                                        IsChecked="False"
+                                                        CheckedBackground="{StaticResource CheckedButtonStyle}"
+                                                        MouseOverBackground="{StaticResource BgButton}" 
+                                                        Width="Auto">
+
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="Unchecked">
+                                                    <i:InvokeCommandAction Command="{Binding btn_BarCodeReader_Setting_UncheckedCmd}" />
+                                                </i:EventTrigger>
+                                                <i:EventTrigger EventName="Checked">
+                                                    <i:InvokeCommandAction Command="{Binding btn_BarCodeReader_Setting_CheckedCmd}" />
+                                                </i:EventTrigger>
+
+                                            </i:Interaction.Triggers>
+                                        </RibbonToggleButton>
+
+                                        <Label x:Name="label_Barcode_Status"  Margin="0,0,0,0" FontSize="15" Grid.Row="1" Content="Disconnected" 
+                                                    VerticalContentAlignment="Top">
+                                            <!--<Label.Foreground>
+                                                <SolidColorBrush Color="{Binding color_barcodeReaderStatus}">
+                                                </SolidColorBrush>
+                                            </Label.Foreground>-->
+
+                                        </Label>
+                                    </Grid>
+
+                                    <Grid Margin="0,0,0,-30">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="5*"></RowDefinition>
+                                            <RowDefinition Height="3*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <RibbonToggleButton x:Name="btn_PLCCOMM_Setting" Grid.Row="0"
+                                                        Label="PLC COMM Setting"
+                                                        LargeImageSource="..\..\Resources/network.png"
+                                                        Foreground="White"                          
+                                                        IsEnabled="true"
+                                                        IsChecked="False"
+                                                        CheckedBackground="{StaticResource CheckedButtonStyle}"
+                                                        MouseOverBackground="{StaticResource BgButton}" 
+                                                        Width="Auto">
+
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="Unchecked">
+                                                    <i:InvokeCommandAction Command="{Binding btn_PLCCOMM_Setting_UncheckedCmd}" />
+                                                </i:EventTrigger>
+                                                <i:EventTrigger EventName="Checked">
+                                                    <i:InvokeCommandAction Command="{Binding btn_PLCCOMM_Setting_CheckedCmd}" />
+                                                </i:EventTrigger>
+
+                                            </i:Interaction.Triggers>
+                                        </RibbonToggleButton>
+
+                                        <Label x:Name="label_PLCCOMM_Status" FontSize="15" Grid.Row="1" 
+                                                    Content="Disconnected" VerticalContentAlignment="Top"  HorizontalContentAlignment="Center"
+                                                    >
+                                        </Label>
+                                    </Grid>
+
+
+                                    <Grid Margin="0,0,0,-30">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="5*"></RowDefinition>
+                                            <RowDefinition Height="3*"></RowDefinition>
+                                        </Grid.RowDefinitions>
+                                        <RibbonToggleButton x:Name="btn_Serial_COMM" Grid.Row="0"
+                                                        Label="Serial COMM"
+                                                        LargeImageSource="..\..\Resources\serial-comm.png"
+                                                        Foreground="White"                          
+                                                        IsEnabled="true"
+                                                        IsChecked="False"
+                                                        CheckedBackground="{StaticResource CheckedButtonStyle}"
+                                                        MouseOverBackground="{StaticResource BgButton}" 
+                                                        Width="Auto">
+                                            <i:Interaction.Triggers>
+                                                <i:EventTrigger EventName="Unchecked">
+                                                    <i:InvokeCommandAction Command="{Binding btn_Serial_COMM_UncheckedCmd}" />
+                                                </i:EventTrigger>
+                                                <i:EventTrigger EventName="Checked">
+                                                    <i:InvokeCommandAction Command="{Binding btn_Serial_COMM_CheckedCmd}" />
+                                                </i:EventTrigger>
+
+                                            </i:Interaction.Triggers>
+                                        </RibbonToggleButton>
+
+                                        <Label x:Name="label_Serial_Comm" FontSize="15" Grid.Row="1" 
+                                                    Content="Disconnected" VerticalContentAlignment="Top"  HorizontalContentAlignment="Center">
+                                        </Label>
+                                    </Grid>
+
+                                </RibbonGroup>
+                            </StackPanel>
+                        </TabItem>
+                        <TabItem Name="tab_vision_view" Header="INSPECTION">
+                            <ribbontabitems:InspectionTab DataContext="{Binding inspectionTabVM}"></ribbontabitems:InspectionTab>
+                        </TabItem>
+                        <TabItem Header="TOOL VIEW" Name ="tabTool_View">
+                            <StackPanel Orientation="Horizontal"
+                                IsEnabled="True">
+                                <RibbonGroup Name="btn_Binarize_Group">
+                                    <RibbonGroup.Header>
+                                        <TextBlock Text="View" FontFamily="Microsoft New Tai Lue" 
+                                            Foreground="#FFD6F9FF" FontSize="13" FontWeight="Bold">
+                                            <TextBlock.Effect>
+                                                <BlurEffect Radius="0.1"/>
+                                            </TextBlock.Effect>
+                                        </TextBlock>
+                                    </RibbonGroup.Header>
+
+                                    <RibbonButton Content="1" Width="0" Height="50"/>
+
+                                    <RibbonToggleButton Name="btn_Binarize"
+                                            Label="Binarize" 
+                                            LargeImageSource="..\..\Resources\binary.png"
+                                            Foreground="GhostWhite" 
+                                            MouseOverBackground="{StaticResource BgButton}"
+                                            CheckedBackground="{StaticResource BgButton}"
+                                            Width="68" 
+                                            Command="{Binding btn_Binarize_ClickCmd}"
+                                            IsChecked="{Binding isbtn_BinarizeChecked}">
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="MouseLeave">
+                                                <i:InvokeCommandAction Command="{Binding Binarize_MouseLeaveCmd}" />
+                                            </i:EventTrigger>
+                                            <i:EventTrigger EventName="MouseEnter">
+                                                <i:InvokeCommandAction Command="{Binding Binarize_MouseEnterCmd}" />
+                                            </i:EventTrigger>
+
+                                        </i:Interaction.Triggers>
+
+                                    </RibbonToggleButton>
+
+                                    <RibbonToggleButton Name="btn_ShowOverlay"
+                                            Label="Show Overlay" 
+                                            LargeImageSource="..\..\Resources\overlay.png"
+                                            Foreground="GhostWhite" 
+                                            MouseOverBackground="{StaticResource BgButton}"
+                                            CheckedBackground="{StaticResource BgButton}"
+                                            Width="68" 
+                                            Command="{Binding btn_ShowOverlay_ClickCmd}"/>
+
+
+                                    <RibbonButton Name="btn_Clear_Comm"
+                                            Label="Clear Output Log"
+                                            LargeImageSource="..\..\Resources\clear-log.png"
+                                            Foreground="GhostWhite" 
+                                            MouseOverBackground="{StaticResource BgButton}"
+                                            Width="68"
+                                            Command="{Binding btn_Clear_CommCmd}"/>
+
+                                    <RibbonToggleButton Name="btn_Pixel_Ruler"
+                                                IsChecked="False"
+                                                Label="Pixel Ruler"
+                                                LargeImageSource="..\..\Resources\pixel-ruler.png"
+                                                Foreground="GhostWhite" 
+                                                Command="{Binding btn_Pixel_Ruler_ClickCmd}"
+                                                FontSize="13"
+                                                MouseOverBackground="{StaticResource BgButton}"
+                                                CheckedBackground="{StaticResource BgButton}"
+                                                Width="68">
+                                    </RibbonToggleButton>
+
+
+
+                                    <RibbonToggleButton Name="btn_Lot_DataExcel"
+                                                            Label="Lot Overview"
+                                                            LargeImageSource="..\..\Resources\book-open-custom.png"
+                                                            MouseOverBackground="{StaticResource MouseOverButtonStyle}"
+                                                            Foreground="GhostWhite"
+                                                            CheckedBackground="{StaticResource CheckedButtonStyle}"
+                                                            Width="auto">
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="Unchecked">
+                                                <i:InvokeCommandAction Command="{Binding btn_Lot_DataExcel_UncheckedCmd}" />
+                                            </i:EventTrigger>
+                                            <i:EventTrigger EventName="Checked">
+                                                <i:InvokeCommandAction Command="{Binding btn_Lot_DataExcel_CheckedCmd}" />
+                                            </i:EventTrigger>
+
+                                        </i:Interaction.Triggers>
+                                    </RibbonToggleButton>
+
+                                    <RibbonToggleButton Name="btn_mapping_parameters"
+                                                            Label="Mapping Setting"
+                                                            LargeImageSource="..\..\Resources\blue-chip.png"
+                                                            MouseOverBackground="{StaticResource MouseOverButtonStyle}"
+                                                            Foreground="GhostWhite"
+                                                            CheckedBackground="{StaticResource CheckedButtonStyle}"
+                                                            Width="auto" >
+                                        <i:Interaction.Triggers>
+                                            <i:EventTrigger EventName="Unchecked">
+                                                <i:InvokeCommandAction Command="{Binding btn_mapping_parameters_UncheckedCmd}" />
+                                            </i:EventTrigger>
+                                            <i:EventTrigger EventName="Checked">
+                                                <i:InvokeCommandAction Command="{Binding btn_mapping_parameters_CheckedCmd}" />
+                                            </i:EventTrigger>
+
+                                        </i:Interaction.Triggers>
+                                    </RibbonToggleButton>
+
+
+
+                                </RibbonGroup>
+                                <!--Binarize group-->
+                            </StackPanel>
+                        </TabItem>
+
+                    </TabControl>
+                </StackPanel>
+
+                <Grid Grid.Column="1">
+
+                    <StackPanel  Height="Auto" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Label Background="SteelBlue" Width="1"></Label>
+                        <RibbonToggleButton x:Name="btn_run_sequence" 
+                                    Content="{StaticResource runSequenceImage}"
+                                    Style="{DynamicResource ToggleButtonStyle2}"
+                                    MouseOverBackground="{StaticResource BgButton}" 
+                                    CheckedBackground="{StaticResource BgButton}">
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Unchecked">
+                                    <i:InvokeCommandAction Command="{Binding btn_run_sequence_UncheckedCmd}" />
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="Checked">
+                                    <i:InvokeCommandAction Command="{Binding btn_run_sequence_CheckedCmd}" />
+                                </i:EventTrigger>
+
+                            </i:Interaction.Triggers>
+                        </RibbonToggleButton>
+
+                        <RibbonToggleButton x:Name="btn_Debug_sequence" Content="{StaticResource debugSequenceImage}"
+                                    Style="{DynamicResource ToggleButtonStyle2}"
+                                    MouseOverBackground="{StaticResource BgButton}" 
+                                    CheckedBackground="{StaticResource BgButton}"
+                                    IsChecked="False">
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="Unchecked">
+                                    <i:InvokeCommandAction Command="{Binding btn_Debug_sequence_UncheckedCmd}" />
+                                </i:EventTrigger>
+                                <i:EventTrigger EventName="Checked">
+                                    <i:InvokeCommandAction Command="{Binding btn_Debug_sequence_CheckedCmd}" />
+                                </i:EventTrigger>
+
+                            </i:Interaction.Triggers>
+
+
+                        </RibbonToggleButton>
+
+
+                        <RibbonToggleButton x:Name="btn_Imidiate_Stop" 
+                                    Content="{StaticResource ImidiateStopImage}"
+                                    Style="{DynamicResource ToggleButtonStyle2}"
+                                    MouseOverBackground="{StaticResource BgButton}" 
+                                    CheckedBackground="{StaticResource BgButton}"
+                                    IsChecked="{Binding Isbtn_Imidiate_StopChecked}"
+                                    
+                                    Command="{Binding btn_Imidiate_Stop_ClickCmd}">
+                        </RibbonToggleButton>
+
+                        <RibbonToggleButton x:Name="btn_Emergency_Stop" 
+                                    Content="{StaticResource EmergencyStopImage}"
+                                    Style="{DynamicResource ToggleButtonStyle2}"
+                                    MouseOverBackground="{StaticResource BgButton}" 
+                                    CheckedBackground="{StaticResource BgButton}"
+                                    IsChecked="{Binding Isbtn_Emergency_StopChecked}"
+                                    
+                                    Command="{Binding btn_Emergency_Stop_ClickCmd}">
+                        </RibbonToggleButton>
+
+                        <RibbonToggleButton x:Name="btn_Reset_Machine" 
+                                    Content="{StaticResource ResetImage}"
+                                    Style="{DynamicResource ToggleButtonStyle2}"
+                                    MouseOverBackground="{StaticResource BgButton}" 
+                                    CheckedBackground="{StaticResource BgButton}"
+                                    
+                                    Command="{Binding btn_Reset_Machine_ClickCmd}">
+                        </RibbonToggleButton>
+                    </StackPanel>
+                </Grid>
+
+            </Grid>
+            <Grid x:Name="Layout1" Grid.Row="2"
+              
+            HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Black">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid >
+                    <avalonDock:DockingManager x:Name="dockManager"
+                                       AllowMixedOrientation="True" 
+                                       GridSplitterWidth="10" 
+                                       GridSplitterHeight="10"
+                                       Layout="{Binding layoutVision, UpdateSourceTrigger=PropertyChanged,Mode=TwoWay}">
+                        <avalonDock:DockingManager.Theme>
+                            <avalonDock:VS2010Theme/>
+                        </avalonDock:DockingManager.Theme>
+                        <avalonDock:DockingManager.DocumentHeaderTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding Title}" TextTrimming="CharacterEllipsis"/>
+                                    <TextBlock Text="{Binding ContentId}" Margin="0 0 0 0" FontSize="10" FontWeight="Bold"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </avalonDock:DockingManager.DocumentHeaderTemplate>
+                    </avalonDock:DockingManager>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <Canvas Margin="50,200,50,50">
+
+            <!--<Canvas.Resources>
+                <DataTemplate DataType="{x:Type viewmodel:WarningMessageBoxVM}">
+                    <view:WarningMessageBox/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:VisionParameterVM}">
+                    <view:VisionParameterUC/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:TeachParameterVM}">
+                    <view:TeachParametersUC/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:StepDebugVM}">
+                    <view:StepDebugView/>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type viewmodel:SerialCommunicationVM}">
+                    <view:SerialCommunicationView/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:PixelRulerVM}">
+                    <view:PixelRuler/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:PLCCOMMVM}">
+                    <hardware:PLCCOMM/>
+                </DataTemplate>
+
+                --><!--<DataTemplate DataType="{x:Type viewmodel:HIKRobotVM}">
+                    <hardware:HiWinRobotUserControl/>
+                </DataTemplate>--><!--
+
+                <DataTemplate DataType="{x:Type viewmodel:HIKControlCameraVM}">
+                    <hardware:HIKControlCameraView/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:MappingSetingUCVM}">
+                    <view:MappingSetingUC/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:LoginUserVM}">
+                    <view:LoginUser/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:BarcodeReaderVM}">
+                    <hardware:BarCodeReaderView/>
+                </DataTemplate>
+                <DataTemplate DataType="{x:Type viewmodel:LotBarcodeDatatableVM}">
+                    <view:LotBarcodeDataTable/>
+                </DataTemplate>
+
+                <DataTemplate DataType="{x:Type viewmodel:RecipeManageVM}">
+                    <view:RecipeManageView/>
+                </DataTemplate>
+            </Canvas.Resources>-->
+
+            <!--<view:VisionParameterUC DataContext="{Binding mVisionParameterVM}"/>-->
+            <!--<view:TeachParametersUC  DataContext="{Binding mTeachParameterVM}"/>-->
+            <template:DragDropUserControl DataContext="{Binding mSerialCommunicationVM}" />
+            <template:DragDropUserControl  DataContext="{Binding mPixelRulerVM}"  />
+            <template:DragDropUserControl DataContext="{Binding mPLCCOMMVM}"  />
+            <template:DragDropUserControl DataContext="{Binding mHiwinRobotVM}" />
+            <template:DragDropUserControl DataContext="{Binding mHIKControlCameraVM}" />
+            <template:DragDropUserControl DataContext="{Binding mMappingSettingUCVM}" />
+            <template:DragDropUserControl DataContext="{Binding mRecipeManageVM}"/>
+            <template:DragDropUserControl DataContext="{Binding mLoginUserVM}"/>
+
+            <!--<view:StepDebugView DataContext="{Binding mStepDebugVM}" />-->
+            <template:DragDropUserControl DataContext="{Binding mBarCodeReaderVM}" />
+            <template:DragDropUserControl DataContext="{Binding mLotBarcodeDataTableVM}"  />
+            <template:DragDropUserControl DataContext="{Binding mWarningMessageBoxVM}" />
+            <template:DragDropUserControl DataContext="{Binding mVisionParameterVM}" />
+            <template:DragDropUserControl DataContext="{Binding mTeachParameterVM}"/>
+            <template:DragDropUserControl DataContext="{Binding mStepDebugVM}" />
+        </Canvas>
+
+
+
+
+
+
+
+    </Grid>
+</Window>

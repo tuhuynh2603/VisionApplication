@@ -1,0 +1,168 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.26100.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>True</UseWindowsForms>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Repository\**" />
+    <EmbeddedResource Remove="Repository\**" />
+    <None Remove="Repository\**" />
+    <Page Remove="Repository\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\AbortSequenceButton.png" />
+    <None Remove="Resources\binary.png" />
+    <None Remove="Resources\blue-chip.png" />
+    <None Remove="Resources\book-open-custom.png" />
+    <None Remove="Resources\bug-play-custom.png" />
+    <None Remove="Resources\camera-custom.png" />
+    <None Remove="Resources\camera-iris-custom.png" />
+    <None Remove="Resources\chevron-triple-down-custom.png" />
+    <None Remove="Resources\clear-log.png" />
+    <None Remove="Resources\close-octagon-custom.png" />
+    <None Remove="Resources\ContinueSequenceButton.png" />
+    <None Remove="Resources\download-box-custom.png" />
+    <None Remove="Resources\Download_2.png" />
+    <None Remove="Resources\EmergencyButton.png" />
+    <None Remove="Resources\file-upload-custom.png" />
+    <None Remove="Resources\gray-chip.png" />
+    <None Remove="Resources\green-chip.png" />
+    <None Remove="Resources\hardware.png" />
+    <None Remove="Resources\human-male-board-custom.png" />
+    <None Remove="Resources\ICONHD.ico" />
+    <None Remove="Resources\ICONHD.png" />
+    <None Remove="Resources\LOGOHD.png" />
+    <None Remove="Resources\Machine.png" />
+    <None Remove="Resources\network.png" />
+    <None Remove="Resources\NextButton_1.png" />
+    <None Remove="Resources\NextButton_2.png" />
+    <None Remove="Resources\overlay.png" />
+    <None Remove="Resources\pixel-ruler.png" />
+    <None Remove="Resources\qrcode-scan-custom.png" />
+    <None Remove="Resources\qrcode-scan.png" />
+    <None Remove="Resources\red-chip.png" />
+    <None Remove="Resources\ResetButton.png" />
+    <None Remove="Resources\ResetButton_2.png" />
+    <None Remove="Resources\robot-industrial-custom.png" />
+    <None Remove="Resources\run-custom.png" />
+    <None Remove="Resources\save-image.png" />
+    <None Remove="Resources\SequenceNextButton.png" />
+    <None Remove="Resources\SequencePreviousButton.png" />
+    <None Remove="Resources\SequenceRetry.png" />
+    <None Remove="Resources\serial-comm.png" />
+    <None Remove="Resources\start.png" />
+    <None Remove="Resources\StartButton.png" />
+    <None Remove="Resources\step-forward-custom.png" />
+    <None Remove="Resources\StopButton.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helper\UIImage\" />
+    <Folder Include="Migrations\" />
+    <Folder Include="MVVM\Behaviors\" />
+    <Folder Include="MVVM\Interface\" />
+    <Folder Include="MVVM\ViewModel\" />
+    <Folder Include="Algorithm\" />
+    <Folder Include="Define\" />
+    <Folder Include="Hardware\" />
+    <Folder Include="Comm\" />
+    <Folder Include="Ultility\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyModbusTCP" Version="5.6.0" />
+    <PackageReference Include="Emgu.CV" Version="4.9.0.5494" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.9.0.5494" />
+    <PackageReference Include="EPPlus" Version="7.3.2" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.6.1" />
+    <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+    <PackageReference Include="MySql.Data" Version="9.0.0" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Prism.Core" Version="9.0.537" />
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
+    <PackageReference Include="System.Windows.Extensions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Communication">
+      <HintPath>Communication.dll</HintPath>
+    </Reference>
+    <Reference Include="Keyence.AutoID.SDK">
+      <HintPath>Keyence.AutoID.SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="VncClientControlCommon">
+      <HintPath>VncClientControlCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="VncClientControlCommonLib">
+      <HintPath>VncClientControlCommonLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\AbortSequenceButton.png" />
+    <Resource Include="Resources\binary.png" />
+    <Resource Include="Resources\blue-chip.png" />
+    <Resource Include="Resources\book-open-custom.png" />
+    <Resource Include="Resources\bug-play-custom.png" />
+    <Resource Include="Resources\camera-custom.png" />
+    <Resource Include="Resources\camera-iris-custom.png" />
+    <Resource Include="Resources\chevron-triple-down-custom.png" />
+    <Resource Include="Resources\clear-log.png" />
+    <Resource Include="Resources\close-octagon-custom.png" />
+    <Resource Include="Resources\ContinueSequenceButton.png" />
+    <Resource Include="Resources\download-box-custom.png" />
+    <Resource Include="Resources\Download_2.png" />
+    <Resource Include="Resources\EmergencyButton.png" />
+    <Resource Include="Resources\file-upload-custom.png" />
+    <Resource Include="Resources\gray-chip.png" />
+    <Resource Include="Resources\green-chip.png" />
+    <Resource Include="Resources\hardware.png" />
+    <Resource Include="Resources\human-male-board-custom.png" />
+    <Resource Include="Resources\ICONHD.ico" />
+    <Resource Include="Resources\ICONHD.png" />
+    <Resource Include="Resources\LOGOHD.png" />
+    <Resource Include="Resources\Machine.png" />
+    <Resource Include="Resources\network.png" />
+    <Resource Include="Resources\NextButton_1.png" />
+    <Resource Include="Resources\NextButton_2.png" />
+    <Resource Include="Resources\overlay.png" />
+    <Resource Include="Resources\pixel-ruler.png" />
+    <Resource Include="Resources\qrcode-scan-custom.png" />
+    <Resource Include="Resources\qrcode-scan.png" />
+    <Resource Include="Resources\red-chip.png" />
+    <Resource Include="Resources\ResetButton.png" />
+    <Resource Include="Resources\ResetButton_2.png" />
+    <Resource Include="Resources\robot-industrial-custom.png" />
+    <Resource Include="Resources\run-custom.png" />
+    <Resource Include="Resources\save-image.png" />
+    <Resource Include="Resources\SequenceNextButton.png" />
+    <Resource Include="Resources\SequencePreviousButton.png" />
+    <Resource Include="Resources\SequenceRetry.png" />
+    <Resource Include="Resources\serial-comm.png" />
+    <Resource Include="Resources\start.png" />
+    <Resource Include="Resources\StartButton.png" />
+    <Resource Include="Resources\step-forward-custom.png" />
+    <Resource Include="Resources\StopButton.png" />
+  </ItemGroup>
+
+</Project>

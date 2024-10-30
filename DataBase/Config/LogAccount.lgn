@@ -1,0 +1,13 @@
+[NUM USER]
+NoOfUsers=2
+
+[User0]
+Name=Engineer
+Level=Engineer
+Pswd=6_XZ_VVc25>?
+
+[User1]
+Name=a
+Level=User
+Pswd=R25>?
+
