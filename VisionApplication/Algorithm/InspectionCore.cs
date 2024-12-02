@@ -19,6 +19,9 @@ namespace VisionApplication.Algorithm
     public class InspectionCore
     {
 
+
+        public VisionAlgorithmInterface Algorithm { get; set; }
+
         public Size globalImageSize;
         TemplateMatchingModel m_TemplateMatchingModel = new TemplateMatchingModel();
         public struct ImageTarget
@@ -100,6 +103,7 @@ namespace VisionApplication.Algorithm
         public DeviceLocationResult m_DeviceLocationResult;
         public InspectionCore(ref Size mImageSize)
         {
+            Algorithm = new VisionAlgorithmInterface();
             globalImageSize = new Size(mImageSize.Width, mImageSize.Height);
             m_SourceImage = new ImageTarget();
             m_TeachImage = new ImageTarget();

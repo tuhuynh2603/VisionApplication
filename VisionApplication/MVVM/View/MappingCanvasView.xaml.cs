@@ -30,11 +30,14 @@ namespace VisionApplication.MVVM.View
             InitializeComponent();
         }
 
-        private  void UserControl_SizeChanged(object sender, SizeChangedEventArgs e)
+        private async void UserControl_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            Console.WriteLine("SizeChanged Start");
-            setMappingSizeDelegate?.Invoke(e.NewSize.Width, e.NewSize.Height);
-            Console.WriteLine("SizeChanged End");
+            //OutputLogVM.AddLineOutputLog($"Start1 {DateTime.Now}");
+
+           // Console.WriteLine("SizeChanged Start");
+            await setMappingSizeDelegate.Invoke(e.NewSize.Width, e.NewSize.Height);
+          //  Console.WriteLine("SizeChanged End");
+          //  OutputLogVM.AddLineOutputLog($"Start2 {DateTime.Now}");
 
         }
     }

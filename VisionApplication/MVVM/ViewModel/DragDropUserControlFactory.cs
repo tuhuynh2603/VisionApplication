@@ -11,28 +11,36 @@ namespace VisionApplication.MVVM.ViewModel
     public class DragDropUserControlVM : DragDropUserControlAbstract
     {
 
-        // Constructor for ViewModels without MainWindowVM or DatabaseContext
-        public DragDropUserControlVM(Func<DragDropUserControlVM, BaseVM> initModelFcn)
+        // Constructor thống nhất với tham số tùy chọn
+        public DragDropUserControlVM(Func<DragDropUserControlVM, MainWindowVM, DatabaseContext, BaseVM> viewModelFactory, MainWindowVM mainWindowVM = null, DatabaseContext dbContextInput = null)
         {
-            CurrentViewModel = initModelFcn.Invoke(this);
+            if (viewModelFactory == null) throw new ArgumentNullException(nameof(viewModelFactory));
+
+            CurrentViewModel = viewModelFactory.Invoke(this, mainWindowVM, dbContextInput);
         }
 
-        // Constructor for ViewModels requiring MainWindowVM
-        public DragDropUserControlVM(Func<DragDropUserControlVM, MainWindowVM, BaseVM> initModelFcn, MainWindowVM mainWindowVM)
-            // CurrentViewModel = initModelFcn.Invoke(this);
-        {
-            CurrentViewModel = initModelFcn.Invoke(this, mainWindowVM);
-        }
+        //// Constructor for ViewModels without MainWindowVM or DatabaseContext
+        //public DragDropUserControlVM(Func<DragDropUserControlVM, BaseVM> initModelFcn)
+        //{
+        //    CurrentViewModel = initModelFcn.Invoke(this);
+        //}
 
-        public DragDropUserControlVM(Func<DragDropUserControlVM, DatabaseContext, BaseVM> initModelFcn, DatabaseContext db = null)
-        {
-            CurrentViewModel = initModelFcn.Invoke(this, db);
-        }
+        //// Constructor for ViewModels requiring MainWindowVM
+        //public DragDropUserControlVM(Func<DragDropUserControlVM, MainWindowVM, BaseVM> initModelFcn, MainWindowVM mainWindowVM)
+        //    // CurrentViewModel = initModelFcn.Invoke(this);
+        //{
+        //    CurrentViewModel = initModelFcn.Invoke(this, mainWindowVM);
+        //}
 
-        // Constructor for ViewModels requiring MainWindowVM and DatabaseContext
-        public DragDropUserControlVM(Func<DragDropUserControlVM, MainWindowVM, DatabaseContext, BaseVM> initModelFcn, MainWindowVM mainWindowVM, DatabaseContext db = null)
-        {
-            CurrentViewModel = initModelFcn.Invoke(this, mainWindowVM, db);
-        }
+        //public DragDropUserControlVM(Func<DragDropUserControlVM, DatabaseContext, BaseVM> initModelFcn, DatabaseContext db = null)
+        //{
+        //    CurrentViewModel = initModelFcn.Invoke(this, db);
+        //}
+
+        //// Constructor for ViewModels requiring MainWindowVM and DatabaseContext
+        //public DragDropUserControlVM(Func<DragDropUserControlVM, MainWindowVM, DatabaseContext, BaseVM> initModelFcn, MainWindowVM mainWindowVM, DatabaseContext db = null)
+        //{
+        //    CurrentViewModel = initModelFcn.Invoke(this, mainWindowVM, db);
+        //}
     }
 }

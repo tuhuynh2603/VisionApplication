@@ -12,7 +12,7 @@ TRACE;RELEASE;NET;NET8_0;NETCOREAPP
 C:\Wisely\C#\VisionApplication\VisionApplication\App.xaml
 281089878522
 
-111195087510
+1121228902655
 262-1073738643
 Hardware\BarCodeReaderView.xaml;Hardware\HIKControlCameraView.xaml;Hardware\HiWinRobotUserControl.xaml;Hardware\PLCCOMM.xaml;MVVM\View\ImageView.xaml;MVVM\View\LayOutAnchorView.xaml;MVVM\View\LoginUser.xaml;MVVM\View\LotBarcodeDataTable.xaml;MVVM\View\MainWindow.xaml;MVVM\View\MapingRectangleView.xaml;MVVM\View\MappingCanvasView.xaml;MVVM\View\MappingSetingUC.xaml;MVVM\View\OutputLogView.xaml;MVVM\View\PixelRuler.xaml;MVVM\View\PopupUserControl.xaml;MVVM\View\RecipeManageView.xaml;MVVM\View\SerialCommunicationView.xaml;MVVM\View\StatisticView.xaml;MVVM\View\StepDebugView.xaml;MVVM\View\SummaryTemplateView.xaml;MVVM\View\TeachParametersUC.xaml;MVVM\View\Template\DragDropUserControl.xaml;MVVM\View\Template\InspectionTab.xaml;MVVM\View\Template\Ribbon.xaml;MVVM\View\TitleBar.xaml;MVVM\View\VisionParameterUC.xaml;MVVM\View\WarningMessageBox.xaml;ResourceControl.xaml;
 

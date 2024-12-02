@@ -92,7 +92,7 @@ namespace VisionApplication.MVVM.ViewModel
         private void PerformSaveClick()
         {
             SaveParameterMappingDefault();
-            initCanvasMappingDelegateAsync?.Invoke(0);
+            initCanvasMappingDelegateAsync?.Invoke();
         }
 
         private ActionCommand cancelClick;

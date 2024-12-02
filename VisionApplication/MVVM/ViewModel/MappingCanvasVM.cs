@@ -40,26 +40,47 @@ namespace VisionApplication.MVVM.ViewModel
         public delegate void UpdateMappingResultDelegate(VisionResultData resultData, int nTrack, int nDeviceID);
         public static UpdateMappingResultDelegate updateMappingResultDelegate;
 
-        public delegate Task InitCanvasMappingDelegateAsync(int n);
+        public delegate Task InitCanvasMappingDelegateAsync();
         public static InitCanvasMappingDelegateAsync initCanvasMappingDelegateAsync;
 
         public delegate void SetMappingPageDelegate(int nTrack, int nPage);
         public static SetMappingPageDelegate setMappingPageDelegate;
 
-        public delegate void SetMappingSizeDelegate(double w, double h);
+        public delegate Task SetMappingSizeDelegate(double w, double h);
         public static SetMappingSizeDelegate setMappingSizeDelegate;
 
-        public async void SetMappingSize(double w, double h)
+        public async Task SetMappingSize(double w, double h)
         {
-            await Task.Run(() =>
+            int a = 1;
+            a = await Task<int>.Run(() =>
             {
 
-                App.Current.Dispatcher.Invoke(() =>
+                int k = 1;
+
+                for (int n = 0; n < 50000; n++)
                 {
-                    MappingCanvasWidth = w;
-                    MappingCanvasHeight = h;
-                });
+                    for (int m = 0; m < 10000; m++)
+                    {
+                        k++;
+                        Math.Sqrt(k * k);
+                    }
+                }
+                return 3;
             });
+
+            a = 2;
+            a = 3;
+
+            await App.Current.Dispatcher.InvokeAsync(async () =>
+            {
+                MappingCanvasWidth = w;
+                MappingCanvasHeight = h;
+                await InitCanvasMappingAsync();
+
+            });
+
+
+
         }
 
 
@@ -80,7 +101,7 @@ namespace VisionApplication.MVVM.ViewModel
         private CatergoryMappingParameters _catergoryMappingParametersTemp { set; get; } = new CatergoryMappingParameters();
 
 
-        public async Task InitCanvasMappingAsync(int n)
+        public async Task InitCanvasMappingAsync()
         {
 
             Stopwatch stopWatch = new Stopwatch();
@@ -102,40 +123,52 @@ namespace VisionApplication.MVVM.ViewModel
             double m_nStepMappingRect = m_nWidthMappingRect + 1;
             string path = @"/Resources/gray-chip.png";
 
-            List<Task<MappingRectangleVM>> mappingRectangleVMTasks = new List<Task<MappingRectangleVM>>();
+
+
+            await App.Current.Dispatcher.InvokeAsync((Action)(async () =>
+            {
+                mappingRectangles = new ObservableCollection<MappingRectangleVM>();
+            }));
+
+            List<Task> mappingRectangleVMTasks = new List<Task>();
+            int nCount = 0;
             for (int nTrack = 0; nTrack < 2; nTrack++)
             {
 
                 for (int nDeviceX = 0; nDeviceX < _catergoryMappingParameters.M_NumberDeviceX; nDeviceX++)
                 {
-                    for (int nDeviceY = 0; nDeviceY < _catergoryMappingParameters.M_NumberDeviceY; nDeviceY++)
+                    for (int nDeviceY = 0; nDeviceY < _catergoryMappingParameters.M_NumberDeviceY; nDeviceY++, nCount++)
                     {
                         int nTrackTemp = nTrack;
                         int nDeviceXTemp = nDeviceX;
                         int nDeviceYTemp = nDeviceY;
 
-                        MappingRectangleVM rec = new MappingRectangleVM();
-                        //mappingRectangles.Add(rec);
+                        await App.Current.Dispatcher.InvokeAsync((Action)(async () =>
+                        {
+                            mappingRectangles.Add(new MappingRectangleVM());
+                        }));
+
+                        int nCount1 = mappingRectangles.Count -1;
                         mappingRectangleVMTasks.Add(Task.Run(
                         async () =>
                         {
-                            //return await Application.Current.Dispatcher.InvokeAsync(() =>
-                            //{
 
-                            //    //rec.imageSource = new BitmapImage(new Uri(path, UriKind.Relative));
-                            //});
-                            rec.trackID = nTrackTemp;
-                            rec.imageWidth = 0.95 * m_nWidthMappingRect;
-                            rec.imageHeight = 0.95 * m_nWidthMappingRect;
-                            rec.mappingID = nDeviceXTemp + 1 + nDeviceYTemp * _catergoryMappingParameters.M_NumberDeviceX + m_nPageID[nTrackTemp] * _catergoryMappingParameters.M_NumberDeviceX * _catergoryMappingParameters.M_NumberDeviceY;
-                            rec.fontMappingSize = 0.95 * m_nWidthMappingRect / 3;
-                            rec.minMappingWidth = 0.95 * m_nWidthMappingRect;
-                            rec.minMappingHeight = 0.95 * m_nWidthMappingRect;
-                            rec.imageLeft = m_nStepMappingRect * nDeviceXTemp + nTrackTemp * m_nWidthMappingRect * (_catergoryMappingParameters.M_NumberDeviceX + 1);
-                            rec.imageTop = m_nStepMappingRect * nDeviceYTemp;
-                            rec.labelLeft = m_nStepMappingRect * nDeviceXTemp + nTrackTemp * m_nWidthMappingRect * (_catergoryMappingParameters.M_NumberDeviceX + 1);
-                            rec.labelTop = m_nStepMappingRect * nDeviceYTemp + 0.95 * m_nWidthMappingRect / 9;
-                            return rec;
+                            await App.Current.Dispatcher.InvokeAsync((Action)(async () =>
+                             {
+                                 mappingRectangles[nCount1].trackID = nTrackTemp;
+                                 mappingRectangles[nCount1].imageWidth = 0.95 * m_nWidthMappingRect;
+                                 mappingRectangles[nCount1].imageHeight = 0.95 * m_nWidthMappingRect;
+                                 mappingRectangles[nCount1].mappingID = nDeviceXTemp + 1 + nDeviceYTemp * _catergoryMappingParameters.M_NumberDeviceX + m_nPageID[nTrackTemp] * _catergoryMappingParameters.M_NumberDeviceX * _catergoryMappingParameters.M_NumberDeviceY;
+                                 mappingRectangles[nCount1].fontMappingSize = 0.95 * m_nWidthMappingRect / 3;
+                                 mappingRectangles[nCount1].minMappingWidth = 0.95 * m_nWidthMappingRect;
+                                 mappingRectangles[nCount1].minMappingHeight = 0.95 * m_nWidthMappingRect;
+                                 mappingRectangles[nCount1].imageLeft = m_nStepMappingRect * nDeviceXTemp + nTrackTemp * m_nWidthMappingRect * (_catergoryMappingParameters.M_NumberDeviceX + 1);
+                                 mappingRectangles[nCount1].imageTop = m_nStepMappingRect * nDeviceYTemp;
+                                 mappingRectangles[nCount1].labelLeft = m_nStepMappingRect * nDeviceXTemp + nTrackTemp * m_nWidthMappingRect * (_catergoryMappingParameters.M_NumberDeviceX + 1);
+                                 mappingRectangles[nCount1].labelTop = m_nStepMappingRect * nDeviceYTemp + 0.95 * m_nWidthMappingRect / 9;
+                                 //Thread.Sleep(10);
+
+                             }));
                         }
                         ));
 
@@ -145,36 +178,20 @@ namespace VisionApplication.MVVM.ViewModel
                 }
             }
 
-            Console.WriteLine("Start");
-            var result = await Task.WhenAll(mappingRectangleVMTasks);
-            Console.WriteLine("End");
+            Console.WriteLine("Start  await Task.WhenAll(mappingRectangleVMTasks);");
+            await Task.WhenAll(mappingRectangleVMTasks);
+            Console.WriteLine("End  await Task.WhenAll(mappingRectangleVMTasks);");
 
-            await Task.Run(
-                () =>
-                {
-                    updateMappingFcn(new ObservableCollection<MappingRectangleVM>(result));
-                }
-                );
-
-            return;
-        }
-
-        public void updateMappingFcn(ObservableCollection<MappingRectangleVM> result)
-        {
-            App.Current.Dispatcher.Invoke((Action)(() =>
+            await App.Current.Dispatcher.InvokeAsync((Action)(() =>
             {
-                mappingRectangles = new ObservableCollection<MappingRectangleVM>();
-                foreach (var rec in result)
-                {
-                    mappingRectangles.Add(rec);
-
-                }
 
                 if (MainWindowVM.mainWindowVM != null)
                     MainWindowVM.loadAllStatisticDelegate?.Invoke(false);
             }));
 
-            
+            Console.WriteLine("End  await loadAllStatisticDelegate);");
+
+            return;
         }
 
         public void UpdateMappingResultPage(int nTrack)
@@ -461,7 +478,6 @@ namespace VisionApplication.MVVM.ViewModel
 
      private double mappingCanvasHeight = 300;
 
-        int n = 0;
         public double MappingCanvasHeight
         {
             get => mappingCanvasHeight;
@@ -469,8 +485,6 @@ namespace VisionApplication.MVVM.ViewModel
             {
                 mappingCanvasHeight = value;
                 OnPropertyChanged(nameof(MappingCanvasHeight));
-                InitCanvasMappingAsync(n++);
-
             }
 
         }

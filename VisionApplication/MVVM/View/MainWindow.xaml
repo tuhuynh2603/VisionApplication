@@ -663,7 +663,7 @@
 
         <Canvas Margin="50,200,50,50">
 
-            <!--<Canvas.Resources>
+            <Canvas.Resources>
                 <DataTemplate DataType="{x:Type viewmodel:WarningMessageBoxVM}">
                     <view:WarningMessageBox/>
                 </DataTemplate>
@@ -687,9 +687,9 @@
                     <hardware:PLCCOMM/>
                 </DataTemplate>
 
-                --><!--<DataTemplate DataType="{x:Type viewmodel:HIKRobotVM}">
+                <DataTemplate DataType="{x:Type viewmodel:HIKRobotVM}">
                     <hardware:HiWinRobotUserControl/>
-                </DataTemplate>--><!--
+                </DataTemplate>
 
                 <DataTemplate DataType="{x:Type viewmodel:HIKControlCameraVM}">
                     <hardware:HIKControlCameraView/>
@@ -710,7 +710,7 @@
                 <DataTemplate DataType="{x:Type viewmodel:RecipeManageVM}">
                     <view:RecipeManageView/>
                 </DataTemplate>
-            </Canvas.Resources>-->
+            </Canvas.Resources>
 
             <!--<view:VisionParameterUC DataContext="{Binding mVisionParameterVM}"/>-->
             <!--<view:TeachParametersUC  DataContext="{Binding mTeachParameterVM}"/>-->

@@ -208,28 +208,47 @@ namespace VisionApplication.MVVM.ViewModel
         }
 
 
+        //public void ConstructModels()
+        //{
+
+        //    mTitleBarVM = new TitleBarVM(this);
+        //    mLoginUserVM = new DragDropUserControlVM((p, mainVM) => new LoginUserVM(p, mainVM), this);
+        //    mSerialCommunicationVM = new DragDropUserControlVM((p, mainVM) => new SerialCommunicationVM(p, mainVM), this);
+        //    mPixelRulerVM = new DragDropUserControlVM((p, mainVM) => new PixelRulerVM(p, mainVM), this);
+        //    mPLCCOMMVM = new DragDropUserControlVM((p, mainVM) => new PLCCOMMVM(p, mainVM), this);
+        //    mHiwinRobotVM = new DragDropUserControlVM((p) => new HIKRobotVM(p));
+        //    mHIKControlCameraVM = new DragDropUserControlVM((p) => new HIKControlCameraVM(p));
+        //    mMappingSettingUCVM = new DragDropUserControlVM((p, mainVM, databaseContext) => new MappingSetingUCVM(p, mainVM, databaseContext), this, databaseContext);
+        //    mBarCodeReaderVM = new DragDropUserControlVM((p) => new BarcodeReaderVM(p));
+        //    mLotBarcodeDataTableVM = new DragDropUserControlVM((p, mainVM) => new LotBarcodeDatatableVM(p, mainVM), this);
+        //    mRecipeManageVM = new DragDropUserControlVM((p, mainVM) => new RecipeManageVM(p, mainVM), this);
+        //    mWarningMessageBoxVM = new DragDropUserControlVM((p) => new WarningMessageBoxVM(p));
+        //    mTeachParameterVM = new DragDropUserControlVM((p, databaseContext) => new TeachParameterVM(p, databaseContext), databaseContext);
+        //    mVisionParameterVM = new DragDropUserControlVM((p, databaseContext) => new VisionParameterVM(p, databaseContext), databaseContext);
+        //    mStepDebugVM = new DragDropUserControlVM((p) => new StepDebugVM(p));
+        //    inspectionTabVM = new InspectionTabVM(this);
+
+        //}
+
         public void ConstructModels()
         {
-
             mTitleBarVM = new TitleBarVM(this);
-            mLoginUserVM = new DragDropUserControlVM((p, mainVM) => new LoginUserVM(p, mainVM), this);
-            mSerialCommunicationVM = new DragDropUserControlVM((p, mainVM) => new SerialCommunicationVM(p, mainVM), this);
-            mPixelRulerVM = new DragDropUserControlVM((p, mainVM) => new PixelRulerVM(p, mainVM), this);
-            mPLCCOMMVM = new DragDropUserControlVM((p, mainVM) => new PLCCOMMVM(p, mainVM), this);
-            mHiwinRobotVM = new DragDropUserControlVM((p) => new HIKRobotVM(p));
-            mHIKControlCameraVM = new DragDropUserControlVM((p) => new HIKControlCameraVM(p));
-            mMappingSettingUCVM = new DragDropUserControlVM((p, mainVM, databaseContext) => new MappingSetingUCVM(p, mainVM, databaseContext), this, databaseContext);
-            mBarCodeReaderVM = new DragDropUserControlVM((p) => new BarcodeReaderVM(p));
-            mLotBarcodeDataTableVM = new DragDropUserControlVM((p, mainVM) => new LotBarcodeDatatableVM(p, mainVM), this);
-            mRecipeManageVM = new DragDropUserControlVM((p, mainVM) => new RecipeManageVM(p, mainVM), this);
-            mWarningMessageBoxVM = new DragDropUserControlVM((p) => new WarningMessageBoxVM(p));
-            mTeachParameterVM = new DragDropUserControlVM((p, databaseContext) => new TeachParameterVM(p, databaseContext), databaseContext);
-            mVisionParameterVM = new DragDropUserControlVM((p, databaseContext) => new VisionParameterVM(p, databaseContext), databaseContext);
-            mStepDebugVM = new DragDropUserControlVM((p) => new StepDebugVM(p));
+            mLoginUserVM = new DragDropUserControlVM((p, mainVM, _) => new LoginUserVM(p, mainVM), this);
+            mSerialCommunicationVM = new DragDropUserControlVM((p, mainVM, _) => new SerialCommunicationVM(p, mainVM), this);
+            mPixelRulerVM = new DragDropUserControlVM((p, mainVM, _) => new PixelRulerVM(p, mainVM), this);
+            mPLCCOMMVM = new DragDropUserControlVM((p, mainVM, _) => new PLCCOMMVM(p, mainVM), this);
+            mHiwinRobotVM = new DragDropUserControlVM((p, _, _) => new HIKRobotVM(p));
+            mHIKControlCameraVM = new DragDropUserControlVM((p, _, _) => new HIKControlCameraVM(p));
+            mMappingSettingUCVM = new DragDropUserControlVM((p, mainVM, db) => new MappingSetingUCVM(p, mainVM, db), this, databaseContext);
+            mBarCodeReaderVM = new DragDropUserControlVM((p, _, _) => new BarcodeReaderVM(p));
+            mLotBarcodeDataTableVM = new DragDropUserControlVM((p, mainVM, _) => new LotBarcodeDatatableVM(p, mainVM), this);
+            mRecipeManageVM = new DragDropUserControlVM((p, mainVM, _) => new RecipeManageVM(p, mainVM), this);
+            mWarningMessageBoxVM = new DragDropUserControlVM((p, _, _) => new WarningMessageBoxVM(p));
+            mTeachParameterVM = new DragDropUserControlVM((p, _, db) => new TeachParameterVM(p, db), dbContextInput: databaseContext);
+            mVisionParameterVM = new DragDropUserControlVM((p, _, db) => new VisionParameterVM(p, db), dbContextInput: databaseContext);
+            mStepDebugVM = new DragDropUserControlVM((p, _, _) => new StepDebugVM(p));
             inspectionTabVM = new InspectionTabVM(this);
-
         }
-
 
 
 

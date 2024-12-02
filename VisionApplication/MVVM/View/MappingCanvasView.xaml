@@ -29,7 +29,7 @@
         </Grid.RowDefinitions>
                                                                                                                                         
         <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
-            <Canvas x:Name="canvas_Mapping" Height="{Binding MappingCanvasHeight, Mode=TwoWay}" Width="{Binding MappingCanvasWidth}" HorizontalAlignment="Left">
+            <Canvas x:Name="canvas_Mapping" Height="{Binding MappingCanvasHeight, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Width="{Binding MappingCanvasWidth, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left">
 
                 <ItemsControl ItemsSource="{Binding mappingRectangles, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" >
                     <ItemsControl.ItemsPanel>

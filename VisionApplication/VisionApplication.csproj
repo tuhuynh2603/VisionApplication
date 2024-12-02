@@ -71,7 +71,6 @@
     <Folder Include="MVVM\Behaviors\" />
     <Folder Include="MVVM\Interface\" />
     <Folder Include="MVVM\ViewModel\" />
-    <Folder Include="Algorithm\" />
     <Folder Include="Define\" />
     <Folder Include="Hardware\" />
     <Folder Include="Comm\" />

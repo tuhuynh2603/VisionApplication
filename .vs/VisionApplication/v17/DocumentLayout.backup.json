@@ -3,12 +3,151 @@
   "WorkspaceRootPath": "C:\\Wisely\\C#\\VisionApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\mappingcanvasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\mappingcanvasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\algorithm\\visionalgorithminterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\algorithm\\visionalgorithminterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\algorithm\\inspectioncore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\algorithm\\inspectioncore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\application\\trackhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\application\\trackhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\application\\master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\application\\master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\imageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\imageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\algorithm\\mathextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\algorithm\\mathextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\mappingcanvasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\mappingcanvasvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\mappingrectanglevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\mappingrectanglevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mappingcanvasview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mappingcanvasview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\categoryvisionparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\categoryvisionparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\iparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\iparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\cameraparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\cameraparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\visionparametervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\visionparametervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\categoryvisionparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\categoryvisionparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\0531cadb4159dcb372742dd70f579a84bdf841fab3e7bacb350c24c5353ea4b1\\Application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mappingcanvasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mappingcanvasview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mapingrectangleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mapingrectangleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\template\\ribbon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\template\\ribbon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\template\\dragdropusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\template\\dragdropusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\lotbarcodedatatable.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\lotbarcodedatatable.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\resourcecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\resourcecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\mappingsettingucvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\mappingsettingucvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\categorymappingparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\categorymappingparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mapingrectangleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mapingrectangleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\lotbarcodedatatablevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\lotbarcodedatatablevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\lotbarcodedatatable.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\lotbarcodedatatable.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\keyence.autoid.sdk.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\keyence.autoid.sdk.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\dragdropusercontrolfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\dragdropusercontrolfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\dragdropusercontrolabstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\dragdropusercontrolabstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\template\\dragdropusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\template\\dragdropusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\titlebarvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\titlebarvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\barcodereadervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\barcodereadervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\loginuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\loginuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\helper\\drawingoverlay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,30 +157,10 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\mappingrectanglevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\mappingrectanglevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\huynh\\AppData\\Local\\SourceServer\\b1aff6b0e04cfd64e3fb0131045b139fa563a964e5e52e8eae05b9ba5bb717ba\\src\\libraries\\System.Private.CoreLib\\src\\System\\Reflection\\MethodBaseInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\resourcecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\resourcecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\template\\ribbon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\template\\ribbon.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\imageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\imageview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\imageview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -60,24 +179,8 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\panevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\application\\master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\application\\master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\mainwindowvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\behaviors\\scrolltoendbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\behaviors\\scrolltoendbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mappingcanvasview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mappingcanvasview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\lotbarcodedatatablevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\lotbarcodedatatablevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\loginuser.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -108,10 +211,6 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\template\\dragdropusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\template\\dragdropusercontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\template\\inspectiontab.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\template\\inspectiontab.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -120,28 +219,12 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\behaviors\\dragbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\dragdropusercontrolfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\dragdropusercontrolfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\behaviors\\focusbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\behaviors\\focusbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\dragdropusercontrolabstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\dragdropusercontrolabstract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\basevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\documentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\documentvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\titlebarvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\titlebarvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\titlebar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -180,24 +263,12 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mappingsetinguc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\lotbarcodedatatable.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\lotbarcodedatatable.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\recipemanagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\recipemanagevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\visionapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\visionapplication.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\barcodereadervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\barcodereadervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\loginuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\loginuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\teachparametersuc.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -224,16 +295,8 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\serialcommunicationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\template\\dragdropusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\template\\dragdropusercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\warningmessageboxvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\warningmessageboxvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -246,10 +309,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\statisticview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\statisticview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\visionparametervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\visionparametervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\stepdebugvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -268,10 +327,6 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\pixelruler.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\mappingsettingucvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\mappingsettingucvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -288,16 +343,8 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\viewmodel\\inspectiontabvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\categoryvisionparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\categoryvisionparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\iparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\iparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\pixelrulervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -306,10 +353,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\categoryvisionparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\categoryvisionparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\cameraparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\cameraparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\viewmodel\\statisticvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -324,10 +367,6 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\categoryteachparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\categoryvisionparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\categoryvisionparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\rectangles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\rectangles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -338,10 +377,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\cameraparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\cameraparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\categorymappingparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\model\\categorymappingparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\model\\cameraparameterrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -501,20 +536,8 @@
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\teachparametersuc.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\lotbarcodedatatable.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\lotbarcodedatatable.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mapingrectangleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mapingrectangleview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\helper\\uiimage\\drawmodelrect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\helper\\uiimage\\drawmodelrect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|c:\\wisely\\c#\\visionapplication\\visionapplication\\mvvm\\view\\mapingrectangleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A6920A09-78E6-4A18-B22F-7E7C721D3A3F}|VisionApplication\\VisionApplication.csproj|solutionrelative:visionapplication\\mvvm\\view\\mapingrectangleview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -580,7 +603,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -588,33 +611,591 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Uri.cs",
-              "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs",
-              "ToolTip": "C:\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs",
-              "RelativeToolTip": "..\\..\\..\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs",
-              "ViewState": "AgIAAI4BAAAAAAAAAAArwJ8BAAAyAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VisionAlgorithmInterface.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Algorithm\\VisionAlgorithmInterface.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Algorithm\\VisionAlgorithmInterface.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Algorithm\\VisionAlgorithmInterface.cs",
+              "RelativeToolTip": "VisionApplication\\Algorithm\\VisionAlgorithmInterface.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwDkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T06:05:46.944Z",
+              "WhenOpened": "2024-12-01T17:34:05.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PropertyPathWorker.cs",
-              "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs",
-              "ToolTip": "C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs [Read Only]",
-              "ViewState": "AgIAAB8BAAAAAAAAAAArwC4BAAAEAAAAAQAAAA==",
+              "DocumentIndex": 7,
+              "Title": "MappingCanvasVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingCanvasVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MappingCanvasVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingCanvasVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\MappingCanvasVM.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAIwHkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T08:51:24.13Z",
-              "EditorCaption": " [Read Only]"
+              "WhenOpened": "2024-09-24T03:21:03.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MappingCanvasView.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingCanvasView.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MappingCanvasView.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingCanvasView.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MappingCanvasView.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAIBJwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:56:22.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InspectionCore.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Algorithm\\InspectionCore.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Algorithm\\InspectionCore.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Algorithm\\InspectionCore.cs",
+              "RelativeToolTip": "VisionApplication\\Algorithm\\InspectionCore.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAMwEoBAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:59:07.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Master.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\Master.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Application\\Master.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\Master.cs",
+              "RelativeToolTip": "VisionApplication\\Application\\Master.cs",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAgwGoBAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:31:30.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TrackHandler.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\TrackHandler.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Application\\TrackHandler.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\TrackHandler.cs",
+              "RelativeToolTip": "VisionApplication\\Application\\TrackHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAIAwwB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:31:35.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageView.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\ImageView.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\ImageView.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\ImageView.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\ImageView.xaml.cs",
+              "ViewState": "AgIAAKcEAAAAAAAAAAAowLQEAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:11:36.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingRectangleVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingRectangleVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MappingRectangleVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingRectangleVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\MappingRectangleVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:43:51.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryVisionParameterService.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameterService.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryVisionParameterService.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameterService.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\CategoryVisionParameterService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:50:52.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MathExtension.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Algorithm\\MathExtension.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Algorithm\\MathExtension.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Algorithm\\MathExtension.cs",
+              "RelativeToolTip": "VisionApplication\\Algorithm\\MathExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:59:06.923Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "MainWindowVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MainWindowVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MainWindowVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MainWindowVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\MainWindowVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:20:28.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\App.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\App.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\App.xaml",
+              "RelativeToolTip": "VisionApplication\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T17:14:24.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MainWindow.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MainWindow.xaml",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-24T03:07:38.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "VisionParameterVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\VisionParameterVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\VisionParameterVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\VisionParameterVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\VisionParameterVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:33:44.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CameraParameterService.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CameraParameterService.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CameraParameterService.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CameraParameterService.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\CameraParameterService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:53:39.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IParameterService.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\IParameterService.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\IParameterService.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\IParameterService.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\IParameterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:49:25.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryVisionParameter.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameter.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryVisionParameter.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameter.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\CategoryVisionParameter.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:31:30.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Application.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\0531cadb4159dcb372742dd70f579a84bdf841fab3e7bacb350c24c5353ea4b1\\Application.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\0531cadb4159dcb372742dd70f579a84bdf841fab3e7bacb350c24c5353ea4b1\\Application.cs",
+              "ToolTip": "C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\0531cadb4159dcb372742dd70f579a84bdf841fab3e7bacb350c24c5353ea4b1\\Application.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\0531cadb4159dcb372742dd70f579a84bdf841fab3e7bacb350c24c5353ea4b1\\Application.cs",
+              "ViewState": "AgIAAE4FAAAAAAAAAAAwwG4FAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T06:50:48.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MapingRectangleView.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MapingRectangleView.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MapingRectangleView.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MapingRectangleView.xaml",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MapingRectangleView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-23T17:44:54.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LotBarcodeDataTable.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-24T03:52:56.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ResourceControl.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\ResourceControl.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\ResourceControl.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\ResourceControl.xaml",
+              "RelativeToolTip": "VisionApplication\\ResourceControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-24T02:49:36.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MappingCanvasView.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingCanvasView.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MappingCanvasView.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingCanvasView.xaml",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MappingCanvasView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-03T04:09:44.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MappingSettingUCVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingSettingUCVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MappingSettingUCVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingSettingUCVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\MappingSettingUCVM.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAApwF4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:32:00.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DragDropUserControl.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-24T02:27:05.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Ribbon.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\Ribbon.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\Template\\Ribbon.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\Ribbon.xaml",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\Template\\Ribbon.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-24T03:30:45.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoryMappingParameter.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryMappingParameter.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryMappingParameter.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryMappingParameter.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\CategoryMappingParameter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T04:40:43.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MapingRectangleView.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MapingRectangleView.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MapingRectangleView.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MapingRectangleView.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MapingRectangleView.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:20:53.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "LotBarcodeDatatableVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\LotBarcodeDatatableVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\LotBarcodeDatatableVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\LotBarcodeDatatableVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\LotBarcodeDatatableVM.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAIBJwIMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T04:01:40.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LotBarcodeDataTable.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwCAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:20:59.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TitleBar.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\TitleBar.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\TitleBar.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\TitleBar.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\TitleBar.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvxgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:34:26.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "VisionParameterUC.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\VisionParameterUC.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\VisionParameterUC.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\VisionParameterUC.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\VisionParameterUC.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:33:49.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "WarningMessageBox.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\WarningMessageBox.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\WarningMessageBox.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\WarningMessageBox.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\WarningMessageBox.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:33:01.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "LayOutAnchorView.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvxgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:16:24.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "HiWinRobotUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HiWinRobotUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Hardware\\HiWinRobotUserControl.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HiWinRobotUserControl.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\Hardware\\HiWinRobotUserControl.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAArwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:19:47.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "HIKControlCameraView.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HIKControlCameraView.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Hardware\\HIKControlCameraView.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HIKControlCameraView.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\Hardware\\HIKControlCameraView.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADgvyIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:18:50.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "BarCodeReaderView.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\BarCodeReaderView.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Hardware\\BarCodeReaderView.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\BarCodeReaderView.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\Hardware\\BarCodeReaderView.xaml.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADgvyYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:15:43.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "MappingSetingUC.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingSetingUC.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MappingSetingUC.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingSetingUC.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MappingSetingUC.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:43:22.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "MappingSetingUC.xaml",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingSetingUC.xaml",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MappingSetingUC.xaml",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingSetingUC.xaml",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MappingSetingUC.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-24T02:40:31.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "DragBehavior.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\DragBehavior.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Behaviors\\DragBehavior.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\DragBehavior.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\Behaviors\\DragBehavior.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:29:02.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "DocumentVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DocumentVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\DocumentVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DocumentVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\DocumentVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T09:07:24.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Keyence.AutoID.SDK.dll",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Keyence.AutoID.SDK.dll",
+              "RelativeDocumentMoniker": "VisionApplication\\Keyence.AutoID.SDK.dll",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Keyence.AutoID.SDK.dll",
+              "RelativeToolTip": "VisionApplication\\Keyence.AutoID.SDK.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2024-11-02T08:08:02.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DragDropUserControlFactory.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DragDropUserControlFactory.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\DragDropUserControlFactory.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DragDropUserControlFactory.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\DragDropUserControlFactory.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:18:38.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DragDropUserControlAbstract.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DragDropUserControlAbstract.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\DragDropUserControlAbstract.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DragDropUserControlAbstract.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\DragDropUserControlAbstract.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:16:59.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DragDropUserControl.xaml.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAewBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T02:34:34.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TitleBarVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\TitleBarVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\TitleBarVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\TitleBarVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\TitleBarVM.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAIwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:33:58.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\BaseVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\BaseVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\BaseVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\BaseVM.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:15:44.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BarcodeReaderVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\BarcodeReaderVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\BarcodeReaderVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\BarcodeReaderVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\BarcodeReaderVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T17:01:11.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "LoginUserVM.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\LoginUserVM.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\LoginUserVM.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\LoginUserVM.cs",
+              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\LoginUserVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:20:16.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "DrawingOverlay.cs",
+              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\DrawingOverlay.cs",
+              "RelativeDocumentMoniker": "VisionApplication\\Helper\\DrawingOverlay.cs",
+              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\DrawingOverlay.cs",
+              "RelativeToolTip": "VisionApplication\\Helper\\DrawingOverlay.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T03:16:36.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "MethodBaseInvoker.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\SourceServer\\b1aff6b0e04cfd64e3fb0131045b139fa563a964e5e52e8eae05b9ba5bb717ba\\src\\libraries\\System.Private.CoreLib\\src\\System\\Reflection\\MethodBaseInvoker.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\SourceServer\\b1aff6b0e04cfd64e3fb0131045b139fa563a964e5e52e8eae05b9ba5bb717ba\\src\\libraries\\System.Private.CoreLib\\src\\System\\Reflection\\MethodBaseInvoker.cs",
@@ -627,96 +1208,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Ribbon.xaml",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\Ribbon.xaml",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\Template\\Ribbon.xaml",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\Ribbon.xaml",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\Template\\Ribbon.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T03:30:45.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MappingCanvasVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingCanvasVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MappingCanvasVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingCanvasVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\MappingCanvasVM.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwC4AAABEAAAAAAAAAA==",
+              "DocumentIndex": 38,
+              "Title": "Uri.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs",
+              "ToolTip": "C:\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\huynh\\AppData\\Local\\SourceServer\\0c297ca745b1dbc9ee822d80b9eac205ec9052e6559eac4a8b1f0b7c2dc92e7d\\Uri.cs",
+              "ViewState": "AgIAAI4BAAAAAAAAAAArwJ8BAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:21:03.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T06:05:46.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TrackHandler.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\TrackHandler.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\Application\\TrackHandler.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\TrackHandler.cs",
-              "RelativeToolTip": "VisionApplication\\Application\\TrackHandler.cs",
-              "ViewState": "AgIAAPUBAAAAAAAAAAASwAICAAAcAAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "PropertyPathWorker.cs",
+              "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs",
+              "ToolTip": "C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b8b74ed96cb310e7521b08fc2fd291b3e429a4b509c86c75e9f5ab857cffbff6\\PropertyPathWorker.cs",
+              "ViewState": "AgIAAB8BAAAAAAAAAAArwC4BAAAEAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:31:35.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T08:51:24.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DrawingOverlay.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\DrawingOverlay.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\Helper\\DrawingOverlay.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\DrawingOverlay.cs",
-              "RelativeToolTip": "VisionApplication\\Helper\\DrawingOverlay.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:16:36.122Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MappingRectangleVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingRectangleVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MappingRectangleVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingRectangleVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\MappingRectangleVM.cs",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAUwKYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:43:51.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ImageView.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\ImageView.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\ImageView.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\ImageView.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\ImageView.xaml.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwFQBAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:11:36.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 41,
               "Title": "ImageView.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\ImageView.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\ImageView.xaml",
               "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\ImageView.xaml",
               "RelativeToolTip": "VisionApplication\\MVVM\\View\\ImageView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-23T17:14:42.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:14:42.58Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 42,
               "Title": "ExceedToolkit.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Ultility\\ExceedToolkit.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Ultility\\ExceedToolkit.cs",
@@ -724,12 +1251,11 @@
               "RelativeToolTip": "VisionApplication\\Ultility\\ExceedToolkit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:24:15.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-23T17:24:15.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 43,
               "Title": "imageViewVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\imageViewVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\imageViewVM.cs",
@@ -737,12 +1263,11 @@
               "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\imageViewVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T04:01:39.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-02T04:01:39.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 44,
               "Title": "PaneVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\PaneVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\PaneVM.cs",
@@ -750,48 +1275,11 @@
               "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\PaneVM.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T09:28:05.835Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T09:28:05.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MainWindow.xaml",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MainWindow.xaml",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T03:07:38.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ResourceControl.xaml",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\ResourceControl.xaml",
-              "RelativeDocumentMoniker": "VisionApplication\\ResourceControl.xaml",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\ResourceControl.xaml",
-              "RelativeToolTip": "VisionApplication\\ResourceControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T02:49:36.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "LotBarcodeDatatableVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\LotBarcodeDatatableVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\LotBarcodeDatatableVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\LotBarcodeDatatableVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\LotBarcodeDatatableVM.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwDcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T04:01:40.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 75,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\App.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\App.xaml.cs",
@@ -803,7 +1291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 76,
               "Title": "TeachParameterVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\TeachParameterVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\TeachParameterVM.cs",
@@ -815,7 +1303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 114,
               "Title": "WarningMessageBox.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\WarningMessageBox.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\WarningMessageBox.g.cs",
@@ -827,7 +1315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 72,
               "Title": "SummaryTemplateVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\SummaryTemplateVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\SummaryTemplateVM.cs",
@@ -839,7 +1327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 73,
               "Title": "SerialCommunicationVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\SerialCommunicationVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\SerialCommunicationVM.cs",
@@ -851,7 +1339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 133,
               "Title": "SummaryTemplateView.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\SummaryTemplateView.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\SummaryTemplateView.xaml.cs",
@@ -863,7 +1351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 134,
               "Title": "TeachParametersUC.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\TeachParametersUC.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\TeachParametersUC.xaml.cs",
@@ -875,7 +1363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 71,
               "Title": "MainWindowVM2_1.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MainWindowVM2_1.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MainWindowVM2_1.cs",
@@ -887,7 +1375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 78,
               "Title": "StepDebugVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\StepDebugVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\StepDebugVM.cs",
@@ -899,19 +1387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\App.xaml",
-              "RelativeDocumentMoniker": "VisionApplication\\App.xaml",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\App.xaml",
-              "RelativeToolTip": "VisionApplication\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-23T17:14:24.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 83,
               "Title": "LogMessage.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Ultility\\LogMessage.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Ultility\\LogMessage.cs",
@@ -923,56 +1399,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Master.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\Master.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\Application\\Master.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\Master.cs",
-              "RelativeToolTip": "VisionApplication\\Application\\Master.cs",
-              "ViewState": "AgIAALsHAAAAAAAAAAAqwMoHAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:31:30.708Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MappingCanvasView.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingCanvasView.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MappingCanvasView.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingCanvasView.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MappingCanvasView.xaml.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAcwCMAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T16:56:22.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 45,
               "Title": "ScrollToEndBehavior.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\ScrollToEndBehavior.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Behaviors\\ScrollToEndBehavior.cs",
               "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\ScrollToEndBehavior.cs",
               "RelativeToolTip": "VisionApplication\\MVVM\\Behaviors\\ScrollToEndBehavior.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T02:31:02.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "MainWindowVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MainWindowVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MainWindowVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MainWindowVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\MainWindowVM.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAYwNgAAABoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:20:28.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 46,
               "Title": "LoginUser.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LoginUser.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LoginUser.xaml",
@@ -983,19 +1422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DragDropUserControlFactory.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DragDropUserControlFactory.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\DragDropUserControlFactory.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DragDropUserControlFactory.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\DragDropUserControlFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:18:38.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 49,
               "Title": "PLCCOMM.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\PLCCOMM.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Hardware\\PLCCOMM.xaml.cs",
@@ -1007,7 +1434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 52,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MainWindow.xaml.cs",
@@ -1019,7 +1446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 48,
               "Title": "RecipeManageView.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\RecipeManageView.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\RecipeManageView.xaml",
@@ -1030,7 +1457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 47,
               "Title": "EventToCommandBehavior.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\EventToCommandBehavior.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Behaviors\\EventToCommandBehavior.cs",
@@ -1042,19 +1469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "DragDropUserControl.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAWwBkAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:34:34.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 53,
               "Title": "InspectionTab.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\InspectionTab.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\Template\\InspectionTab.xaml.cs",
@@ -1066,7 +1481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 104,
               "Title": "CancellationTokenSource.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\SourceServer\\8ecbfd521cbf444b2af71b6994d35f7efc88121da93aaa91f1ba7bc81f49f1fa\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\CancellationTokenSource.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\SourceServer\\8ecbfd521cbf444b2af71b6994d35f7efc88121da93aaa91f1ba7bc81f49f1fa\\src\\libraries\\System.Private.CoreLib\\src\\System\\Threading\\CancellationTokenSource.cs",
@@ -1079,7 +1494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 105,
               "Title": "BarCodeReaderInterface.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\BarCodeReaderInterface.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Hardware\\BarCodeReaderInterface.cs",
@@ -1092,7 +1507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 149,
               "Title": "CategoryTeachParameterService.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Repository\\CategoryTeachParameterService.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Repository\\CategoryTeachParameterService.cs",
@@ -1103,7 +1518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 107,
               "Title": "file-upload-custom.png - PNG [48x48, 32 bit, PNG]",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Resources\\file-upload-custom.png",
               "RelativeDocumentMoniker": "VisionApplication\\Resources\\file-upload-custom.png",
@@ -1115,7 +1530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 106,
               "Title": "LiveViewForm.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\LiveViewForm.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Helper\\LiveViewForm.cs",
@@ -1127,7 +1542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 108,
               "Title": "VisionApplication.csproj",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\VisionApplication.csproj",
               "RelativeDocumentMoniker": "VisionApplication\\VisionApplication.csproj",
@@ -1139,7 +1554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 110,
               "Title": "BarCodeReaderView.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\BarCodeReaderView.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\Hardware\\BarCodeReaderView.xaml",
@@ -1150,7 +1565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 109,
               "Title": "XamlReader.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\59de3a1815d46745f2c53b4ecb7ea92cb9481c1b59ea526f5f9a488656dbcda3\\XamlReader.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\59de3a1815d46745f2c53b4ecb7ea92cb9481c1b59ea526f5f9a488656dbcda3\\XamlReader.cs",
@@ -1161,7 +1576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 111,
               "Title": "TypeConverterHelper.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\TypeConverterHelper.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Helper\\TypeConverterHelper.cs",
@@ -1173,7 +1588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 51,
               "Title": "HiWinRobotInterface.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HiWinRobotInterface.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Hardware\\HiWinRobotInterface.cs",
@@ -1185,7 +1600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 50,
               "Title": "StructDef.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Define\\StructDef.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Define\\StructDef.cs",
@@ -1197,197 +1612,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 55,
               "Title": "FocusBehavior.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\FocusBehavior.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Behaviors\\FocusBehavior.cs",
               "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\FocusBehavior.cs",
               "RelativeToolTip": "VisionApplication\\MVVM\\Behaviors\\FocusBehavior.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T02:30:41.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "DragDropUserControlAbstract.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DragDropUserControlAbstract.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\DragDropUserControlAbstract.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DragDropUserControlAbstract.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\DragDropUserControlAbstract.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAA1wKQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:16:59.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "TitleBar.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\TitleBar.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\TitleBar.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\TitleBar.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\TitleBar.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADgvxgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:34:26.59Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "VisionParameterUC.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\VisionParameterUC.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\VisionParameterUC.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\VisionParameterUC.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\VisionParameterUC.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:33:49.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "WarningMessageBox.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\WarningMessageBox.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\WarningMessageBox.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\WarningMessageBox.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\WarningMessageBox.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:33:01.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "LayOutAnchorView.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADgvxgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:16:24.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "HiWinRobotUserControl.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HiWinRobotUserControl.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\Hardware\\HiWinRobotUserControl.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HiWinRobotUserControl.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\Hardware\\HiWinRobotUserControl.xaml.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAArwCAAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:19:47.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "HIKControlCameraView.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HIKControlCameraView.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\Hardware\\HIKControlCameraView.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HIKControlCameraView.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\Hardware\\HIKControlCameraView.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAADgvyIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:18:50.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "BarCodeReaderView.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\BarCodeReaderView.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\Hardware\\BarCodeReaderView.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\BarCodeReaderView.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\Hardware\\BarCodeReaderView.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADgvyYAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:15:43.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "MappingSetingUC.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingSetingUC.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MappingSetingUC.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingSetingUC.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MappingSetingUC.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:43:22.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "MappingSetingUC.xaml",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingSetingUC.xaml",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MappingSetingUC.xaml",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MappingSetingUC.xaml",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MappingSetingUC.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T02:40:31.589Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "DragBehavior.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\DragBehavior.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Behaviors\\DragBehavior.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\DragBehavior.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\Behaviors\\DragBehavior.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCYAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:29:02.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "BaseVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\BaseVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\BaseVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\BaseVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\BaseVM.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:15:44.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "DocumentVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DocumentVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\DocumentVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\DocumentVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\DocumentVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T09:07:24.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "TitleBarVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\TitleBarVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\TitleBarVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\TitleBarVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\TitleBarVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:33:58.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "LotBarcodeDataTable.xaml",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T03:52:56.229Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 67,
               "Title": "VisionApplication",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\VisionApplication.csproj",
               "RelativeDocumentMoniker": "VisionApplication\\VisionApplication.csproj",
@@ -1398,7 +1635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 66,
               "Title": "RecipeManageVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\RecipeManageVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\RecipeManageVM.cs",
@@ -1410,31 +1647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "BarcodeReaderVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\BarcodeReaderVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\BarcodeReaderVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\BarcodeReaderVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\BarcodeReaderVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T17:01:11.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "LoginUserVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\LoginUserVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\LoginUserVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\LoginUserVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\LoginUserVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:20:16.07Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 68,
               "Title": "TeachParametersUC.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\TeachParametersUC.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\TeachParametersUC.xaml",
@@ -1445,7 +1658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 69,
               "Title": "VisionParameterUC.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\VisionParameterUC.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\VisionParameterUC.xaml",
@@ -1456,7 +1669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 74,
               "Title": "WarningMessageBoxVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\WarningMessageBoxVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\WarningMessageBoxVM.cs",
@@ -1468,18 +1681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "DragDropUserControl.xaml",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\Template\\DragDropUserControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T02:27:05.779Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 112,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Users\\huynh\\AppData\\Local\\Temp\\.vsdbgsrc\\b49ace08f4cd26a4f275d628999a0f91ccb8a1892704530d9e6f5bd1284082f1\\ResourcePart.cs",
@@ -1490,7 +1692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 113,
               "Title": "OutputLogVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\OutputLogVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\OutputLogVM.cs",
@@ -1502,7 +1704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 116,
               "Title": "RecipeManageView.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\RecipeManageView.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\RecipeManageView.g.cs",
@@ -1514,7 +1716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 117,
               "Title": "PixelRuler.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\PixelRuler.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\PixelRuler.g.cs",
@@ -1526,7 +1728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 70,
               "Title": "WarningMessageBox.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\WarningMessageBox.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\WarningMessageBox.xaml",
@@ -1537,7 +1739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 126,
               "Title": "OutputLogView.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\OutputLogView.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\OutputLogView.xaml.cs",
@@ -1549,7 +1751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 127,
               "Title": "PixelRuler.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\PixelRuler.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\PixelRuler.xaml.cs",
@@ -1561,7 +1763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 129,
               "Title": "RecipeManageView.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\RecipeManageView.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\RecipeManageView.xaml.cs",
@@ -1573,7 +1775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 128,
               "Title": "PopupUserControl.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\PopupUserControl.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\PopupUserControl.xaml.cs",
@@ -1585,7 +1787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 130,
               "Title": "SerialCommunicationView.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\SerialCommunicationView.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\SerialCommunicationView.xaml.cs",
@@ -1597,7 +1799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 131,
               "Title": "StatisticView.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\StatisticView.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\StatisticView.xaml.cs",
@@ -1609,7 +1811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 132,
               "Title": "StepDebugView.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\StepDebugView.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\StepDebugView.xaml.cs",
@@ -1621,7 +1823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 118,
               "Title": "LotBarcodeDataTable.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\LotBarcodeDataTable.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\LotBarcodeDataTable.g.cs",
@@ -1633,7 +1835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 119,
               "Title": "LoginUser.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\LoginUser.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Debug\\net8.0-windows10.0.26100.0\\MVVM\\View\\LoginUser.g.cs",
@@ -1645,7 +1847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 77,
               "Title": "StatisticView.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\StatisticView.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\StatisticView.xaml",
@@ -1656,19 +1858,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
-              "Title": "VisionParameterVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\VisionParameterVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\VisionParameterVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\VisionParameterVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\VisionParameterVM.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:33:44.491Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 79,
               "Title": "ThumbBehavior.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Behaviors\\ThumbBehavior.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Behaviors\\ThumbBehavior.cs",
@@ -1680,7 +1870,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 84,
               "Title": "HIKRobotVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\HIKRobotVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\HIKRobotVM.cs",
@@ -1692,7 +1882,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 81,
               "Title": "PixelRuler.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\PixelRuler.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\PixelRuler.xaml",
@@ -1703,19 +1893,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "MappingSettingUCVM.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingSettingUCVM.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\MappingSettingUCVM.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\MappingSettingUCVM.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\ViewModel\\MappingSettingUCVM.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAmwE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:32:00.078Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 82,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "VisionApplication\\AssemblyInfo.cs",
@@ -1727,7 +1905,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 80,
               "Title": "SerialCommunicationView.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\SerialCommunicationView.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\SerialCommunicationView.xaml",
@@ -1738,7 +1916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 85,
               "Title": "InspectionTabVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\InspectionTabVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\InspectionTabVM.cs",
@@ -1750,19 +1928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
-              "Title": "CategoryVisionParameterService.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameterService.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryVisionParameterService.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameterService.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\CategoryVisionParameterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T04:50:52.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 86,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\DatabaseContext.cs",
@@ -1774,31 +1940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "IParameterService.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\IParameterService.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\IParameterService.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\IParameterService.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\IParameterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T04:49:25.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "CameraParameterService.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CameraParameterService.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CameraParameterService.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CameraParameterService.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\CameraParameterService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBgAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T04:53:39.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 87,
               "Title": "PixelRulerVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\PixelRulerVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\PixelRulerVM.cs",
@@ -1810,7 +1952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 88,
               "Title": "CategoryVisionParameterRepository.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameterRepository.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryVisionParameterRepository.cs",
@@ -1822,7 +1964,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 89,
               "Title": "StatisticVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\StatisticVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\StatisticVM.cs",
@@ -1834,7 +1976,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 91,
               "Title": "CategoryTeachParameter.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryTeachParameter.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryTeachParameter.cs",
@@ -1846,19 +1988,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "CategoryVisionParameter.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameter.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryVisionParameter.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryVisionParameter.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\CategoryVisionParameter.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBwAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:31:30.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 92,
               "Title": "Rectangles.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\Rectangles.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\Rectangles.cs",
@@ -1870,7 +2000,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 90,
               "Title": "PLCCOMMVM.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\ViewModel\\PLCCOMMVM.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\ViewModel\\PLCCOMMVM.cs",
@@ -1882,7 +2012,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 93,
               "Title": "FileHelper.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\FileHelper.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Helper\\FileHelper.cs",
@@ -1894,7 +2024,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 94,
               "Title": "CameraParameter.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CameraParameter.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CameraParameter.cs",
@@ -1906,19 +2036,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "CategoryMappingParameter.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryMappingParameter.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryMappingParameter.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryMappingParameter.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\Model\\CategoryMappingParameter.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T04:40:43.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 95,
               "Title": "CameraParameterRepository.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CameraParameterRepository.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CameraParameterRepository.cs",
@@ -1930,7 +2048,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 96,
               "Title": "CategoryTeachParameterRepository.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryTeachParameterRepository.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryTeachParameterRepository.cs",
@@ -1942,7 +2060,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 97,
               "Title": "CategoryTeachParameterService.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Model\\CategoryTeachParameterService.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Model\\CategoryTeachParameterService.cs",
@@ -1954,7 +2072,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 145,
               "Title": "CategoryTeachParameterRepository.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Repository\\CategoryTeachParameterRepository.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Repository\\CategoryTeachParameterRepository.cs",
@@ -1965,7 +2083,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 98,
               "Title": "InspectionTab.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\Template\\InspectionTab.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\Template\\InspectionTab.xaml",
@@ -1976,7 +2094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 99,
               "Title": "LoginUser.xaml.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LoginUser.xaml.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LoginUser.xaml.cs",
@@ -1988,7 +2106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 101,
               "Title": "CommInterface.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\CommInterface.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Hardware\\CommInterface.cs",
@@ -2000,7 +2118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 100,
               "Title": "HIKControlCameraView.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Hardware\\HIKControlCameraView.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\Hardware\\HIKControlCameraView.xaml",
@@ -2011,7 +2129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 102,
               "Title": "IParameter.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Interface\\IParameter.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Interface\\IParameter.cs",
@@ -2023,7 +2141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 103,
               "Title": "ICustomUserControl.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\Interface\\ICustomUserControl.cs",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\Interface\\ICustomUserControl.cs",
@@ -2035,7 +2153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 146,
               "Title": "CategoryVisionParameterService.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Repository\\CategoryVisionParameterService.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Repository\\CategoryVisionParameterService.cs",
@@ -2046,7 +2164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 147,
               "Title": "CategoryVisionParameterRepository.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Repository\\CategoryVisionParameterRepository.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Repository\\CategoryVisionParameterRepository.cs",
@@ -2057,7 +2175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 148,
               "Title": "ICategoryParameterService.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Repository\\ICategoryParameterService.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Repository\\ICategoryParameterService.cs",
@@ -2068,7 +2186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 120,
               "Title": "LoginUser.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\LoginUser.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\LoginUser.g.cs",
@@ -2080,7 +2198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 115,
               "Title": "OutputLogView.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\OutputLogView.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\OutputLogView.xaml",
@@ -2091,7 +2209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 121,
               "Title": "LotBarcodeDataTable.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\LotBarcodeDataTable.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\LotBarcodeDataTable.g.cs",
@@ -2103,7 +2221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 122,
               "Title": "PixelRuler.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\PixelRuler.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\PixelRuler.g.cs",
@@ -2115,7 +2233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 123,
               "Title": "RecipeManageView.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\RecipeManageView.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\RecipeManageView.g.cs",
@@ -2127,7 +2245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 124,
               "Title": "WarningMessageBox.g.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\WarningMessageBox.g.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Release\\net8.0-windows10.0.26100.0\\MVVM\\View\\WarningMessageBox.g.cs",
@@ -2139,7 +2257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 125,
               "Title": "AppMagnus.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\AppMagnus.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Application\\AppMagnus.cs",
@@ -2151,42 +2269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
-              "Title": "LotBarcodeDataTable.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\LotBarcodeDataTable.xaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCAAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:20:59.616Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 127,
-              "Title": "MapingRectangleView.xaml.cs",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MapingRectangleView.xaml.cs",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MapingRectangleView.xaml.cs",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MapingRectangleView.xaml.cs",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MapingRectangleView.xaml.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:20:53.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 129,
-              "Title": "MapingRectangleView.xaml",
-              "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MapingRectangleView.xaml",
-              "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\MapingRectangleView.xaml",
-              "ToolTip": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\MapingRectangleView.xaml",
-              "RelativeToolTip": "VisionApplication\\MVVM\\View\\MapingRectangleView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-23T17:44:54.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 135,
               "Title": "DrawModelRect.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\UIImage\\DrawModelRect.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Helper\\UIImage\\DrawModelRect.cs",
@@ -2198,7 +2281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 136,
               "Title": "MainWindow.g.i.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
               "RelativeDocumentMoniker": "VisionApplication\\obj\\Debug\\net8.0-windows\\MainWindow.g.i.cs",
@@ -2210,7 +2293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 137,
               "Title": "SerialCommunication.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Comm\\SerialCommunication.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Comm\\SerialCommunication.cs",
@@ -2222,7 +2305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 138,
               "Title": "TransformImage.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\UIImage\\TransformImage.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Helper\\UIImage\\TransformImage.cs",
@@ -2234,7 +2317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 139,
               "Title": "BitmapSourceConverter.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\UIImage\\BitmapSourceConverter.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Helper\\UIImage\\BitmapSourceConverter.cs",
@@ -2246,7 +2329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 141,
               "Title": "TitleBar.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\TitleBar.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\TitleBar.xaml",
@@ -2257,7 +2340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 140,
               "Title": "CameraHelper.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\CameraHelper.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Helper\\CameraHelper.cs",
@@ -2269,7 +2352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 142,
               "Title": "LayOutAnchorView.xaml",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml",
               "RelativeDocumentMoniker": "VisionApplication\\MVVM\\View\\LayOutAnchorView.xaml",
@@ -2280,7 +2363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 144,
               "Title": "ImageHelper.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Helper\\ImageHelper.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Helper\\ImageHelper.cs",
@@ -2292,7 +2375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 143,
               "Title": "IniFile.cs",
               "DocumentMoniker": "C:\\Wisely\\C#\\VisionApplication\\VisionApplication\\Application\\IniFile.cs",
               "RelativeDocumentMoniker": "VisionApplication\\Application\\IniFile.cs",
