@@ -25,6 +25,7 @@ namespace VisionApplication
     using VisionApplication.MVVM.ViewModel;
     using System.Collections.ObjectModel;
     using VisionApplication.Helper.UIImage;
+    using static VisionApplication.Algorithm.VisionAlgorithmInterface;
 
     public class Track
     {
@@ -97,7 +98,7 @@ namespace VisionApplication
             m_InspectionCore = new InspectionCore(ref size);
             //InspectionCore.Initialize();
 
-            CheckInspectionOnlineThread();
+            //CheckInspectionOnlineThread();
             //m_CurrentSequenceDeviceID = Application.GetIntRegistry(Application.m_strCurrentDeviceID_Registry[indexTrack], 0);
 
         }
@@ -168,6 +169,9 @@ namespace VisionApplication
 
         public int Stream_HIKCamera()
         {
+            if (m_hIKControlCameraView == null)
+                return - 1;
+
             if (!m_hIKControlCameraView.m_MyCamera.MV_CC_IsDeviceConnected_NET())
             {
                 MainWindowVM.updateCameraConnectionStatusDelegate?.Invoke(m_nTrackID, m_hIKControlCameraView.InitializeCamera(m_strSeriCamera));
@@ -195,7 +199,7 @@ namespace VisionApplication
                 }
 
                 m_hIKControlCameraView.CaptureAndGetImageBuffer(ref m_imageViews[0].bufferImage, ref nWidth, ref nHeight);
-                m_imageViews[0].UpdateSourceImageMono();
+                m_imageViews[0].UpdateSourceImageMono(nWidth, nHeight);
                 //m_imageViews[0].UpdateNewImageColor(m_imageViews[0].bufferImage, nWidth, nHeight, 96);
                 if (MyCamera.MV_OK != nRet)
                 {
@@ -237,7 +241,7 @@ namespace VisionApplication
                 return -1;
             }
             m_hIKControlCameraView.CaptureAndGetImageBuffer(ref m_imageViews[0].bufferImage, ref nWidth, ref nHeight);
-            m_imageViews[0].UpdateSourceImageMono();
+            m_imageViews[0].UpdateSourceImageMono(nWidth, nHeight);
             // m_imageViews[0].UpdateNewImageColor(m_imageViews[0].bufferImage, nWidth, nHeight, 96);
             nRet = m_hIKControlCameraView.m_MyCamera.MV_CC_StopGrabbing_NET();
             if (MyCamera.MV_OK != nRet)
@@ -513,14 +517,17 @@ namespace VisionApplication
                     m_imageViews[0].ClearText();
                 });
                 int nResult;
-                PointF pCenter = new PointF(0, 0);
-                PointF pCorner = new PointF(0, 0);
+
+
+
+                List<Point2d> pCenter = new();
+                List<Point2d> pCorner = new();
                 nResult = m_InspectionCore.Inspect(ref m_InspectionCore.m_TeachImage, ref m_ArrayOverLay, ref pCenter, ref pCorner,m_StepDebugInfors, false);
                 //Draw Result
                 //if (nResult == 0)
                 //{
-                m_InspectionCore.m_DeviceLocationResult.m_dCenterDevicePoint = pCenter;
-                m_InspectionCore.m_DeviceLocationResult.m_dCornerDevicePoint = pCorner;
+                m_InspectionCore.m_DeviceLocationResult.m_dCenterDevicePoint = new PointF( (float) pCenter.Last().x, (float) pCenter.Last().y);
+                m_InspectionCore.m_DeviceLocationResult.m_dCornerDevicePoint = new PointF((float)pCorner.Last().x, (float)pCorner.Last().y);
                 //m_InspectionCore.m_DeviceLocationResult.m_dAngleOxDevice = MagnusMatrix.AngleWithXAxis(pCorner.X - pCenter.X, pCorner.Y - pCenter.Y);
                 //}
 
@@ -528,13 +535,13 @@ namespace VisionApplication
 
                 if (bEnableDisplay)
                 {
-                    double dDeltaAngle = MagnusMatrix.CalculateShiftXYAngle(pCenter, pCorner, m_InspectionCore.m_DeviceLocationResult.m_dCenterDevicePoint, m_InspectionCore.m_DeviceLocationResult.m_dCornerDevicePoint);
+                    double dDeltaAngle = MagnusMatrix.CalculateShiftXYAngle(m_InspectionCore.m_DeviceLocationResult.m_dCenterDevicePoint, m_InspectionCore.m_DeviceLocationResult.m_dCornerDevicePoint, m_InspectionCore.m_DeviceLocationResult.m_dCenterDevicePoint, m_InspectionCore.m_DeviceLocationResult.m_dCornerDevicePoint);
 
                     System.Windows.Application.Current.Dispatcher.Invoke((Action)delegate
                     {
                         //LogMessage.WriteToDebugViewer(5 + m_nTrackID, $"{ Application.LineNumber()}: {Application.PrintCallerName()}");
 
-                        DrawInspectionResult(ref nResult, ref pCenter, ref dDeltaAngle);
+                        DrawInspectionResult(ref nResult, ref m_InspectionCore.m_DeviceLocationResult.m_dCenterDevicePoint, ref dDeltaAngle);
                         //LogMessage.WriteToDebugViewer(5 + m_nTrackID, $"{ Application.LineNumber()}: {Application.PrintCallerName()}");
 
                     });
@@ -574,14 +581,11 @@ namespace VisionApplication
         {
             PointF pCenter = new PointF();
             PointF pCorner = new PointF();
-
-
             int nResult = Inspect(out pCenter, out pCorner, true);
             double dDeltaAngle = MagnusMatrix.CalculateShiftXYAngle(pCenter, pCorner, m_InspectionCore.m_DeviceLocationResult.m_dCenterDevicePoint, m_InspectionCore.m_DeviceLocationResult.m_dCornerDevicePoint);
             //Todo need to later after adding the calib function to calculate the transform matrix
-            if (MainWindowVM.master.m_hiWinRobotInterface.m_hiWinRobotUserControl == null)
-                return 0 ;
-            PointF robotPoint = MagnusMatrix.ApplyTransformation(HIKRobotVM.m_MatCameraRobotTransform, pCenter);
+            if (MainWindowVM.master.m_hiWinRobotInterface != null && MainWindowVM.master.m_hiWinRobotInterface.m_hiWinRobotUserControl != null)
+                MagnusMatrix.ApplyTransformation(HIKRobotVM.m_MatCameraRobotTransform, pCenter);
             //Draw Result
             System.Windows.Application.Current.Dispatcher.Invoke((Action)delegate
             {
@@ -605,13 +609,23 @@ namespace VisionApplication
                 m_imageViews[0].ClearOverlay();
                 m_imageViews[0].ClearText();
             });
+
+
+            //nResult = m_InspectionCore.Inspect(ref m_InspectionCore.m_TeachImage, ref m_ArrayOverLay, ref pCenter, ref pCorner, m_StepDebugInfors, false);
+            //Draw Result
+            //if (nResult == 0)
+            //{
+            //m_InspectionCore.m_DeviceLocationResult.m_dAngleOxDevice = MagnusMatrix.AngleWithXAxis(pCorner.X - pCenter.X, pCorner.Y - pCenter.Y);
+            //}
+
+            //Console.WriteLine(matchingResults.Count);
             int nResult;
             //double nAngleOutput = 0;
-            PointF pCenter = new PointF(0, 0);
-            PointF pCorner = new PointF(0, 0);
+            List<Point2d> pCenter = new();
+            List<Point2d> pCorner = new();
             nResult = m_InspectionCore.Inspect(ref m_InspectionCore.m_SourceImage, ref m_ArrayOverLay, ref pCenter, ref pCorner, m_StepDebugInfors, IsStepDebug);
-            pCenterOut = pCenter;
-            pCornerOut = pCorner;
+            pCenterOut = new PointF((float)pCenter.Last().x, (float)pCenter.Last().y);
+            pCornerOut = new PointF((float)pCorner.Last().x, (float)pCorner.Last().y);
 
             return nResult;
         }
@@ -1019,7 +1033,7 @@ namespace VisionApplication
                             Master.InspectEvent[m_nTrackID].Reset();
                             goto Start_InspectionOnlineThread;
                         }
-                        m_imageViews[0].UpdateSourceImageMono();
+                        m_imageViews[0].UpdateSourceImageMono(nWidth, nHeight);
                     }
                     else
                     {

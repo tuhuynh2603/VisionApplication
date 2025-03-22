@@ -21,6 +21,8 @@ namespace VisionApplication
     using MessageBox = System.Windows.Forms.MessageBox;
     using System.Collections.ObjectModel;
     using VisionApplication.Comm;
+    using VisionApplication.Algorithm;
+    using VisionApplication.Helper.UIImage;
 
     public class Master
     {
@@ -88,12 +90,12 @@ namespace VisionApplication
         public void InitThread()
         {
             //string[] nSeriCam = { "02C89933333", "none" };
-            if (m_IOStatusThread == null)
-            {
-                m_IOStatusThread = new System.Threading.Thread(new System.Threading.ThreadStart(() => func_IOStatusThread()));
-                //m_IOStatusThread.IsBackground = true;
-                m_IOStatusThread.Start();
-            }
+            //if (m_IOStatusThread == null)
+            //{
+            //    m_IOStatusThread = new System.Threading.Thread(new System.Threading.ThreadStart(() => func_IOStatusThread()));
+            //    //m_IOStatusThread.IsBackground = true;
+            //    m_IOStatusThread.Start();
+            //}
 
             for (int index_track = 0; index_track < AppMagnus.m_nTrack; index_track++)
             {
@@ -113,15 +115,16 @@ namespace VisionApplication
                     m_UpdateResultThread[n].Start();
                 }
 
-                RunOnlineSequenceThread(n);
+                if(m_Tracks[n].m_hIKControlCameraView != null)
+                    RunOnlineSequenceThread(n);
             }
 
 
-            if (!m_bBarcodeReaderSequenceStatus)
-            {
-                m_bBarcodeReaderSequenceStatus = true;
-                BarcodeReaderSequenceThread();
-            }
+            //if (!m_bBarcodeReaderSequenceStatus)
+            //{
+            //    m_bBarcodeReaderSequenceStatus = true;
+            //    BarcodeReaderSequenceThread();
+            //}
         }
 
 
@@ -200,9 +203,9 @@ namespace VisionApplication
             list_arrayOverlay = new List<ArrayOverLay>[AppMagnus.m_nTrack];
 
 
-            m_hiWinRobotInterface = new HiWinRobotInterface();
-            m_plcComm = new PLCCOMM();
-            m_BarcodeReader = new BarCodeReaderInterface();
+            //m_hiWinRobotInterface = new HiWinRobotInterface();
+            //m_plcComm = new PLCCOMM();
+            //m_BarcodeReader = new BarCodeReaderInterface();
             for (int index_track = 0; index_track < AppMagnus.m_nTrack; index_track++)
             {
                 m_SaveInspectImageQueue[index_track] = new Queue<ImageSaveData>();
@@ -361,6 +364,12 @@ namespace VisionApplication
         {
             string pathFileImage = System.IO.Path.Combine(AppMagnus.pathRecipe, AppMagnus.currentRecipe, "templateImage_Track" + (nTrackID + 1).ToString() + ".bmp");
             CvInvoke.Imwrite(pathFileImage, m_Tracks[nTrackID].m_InspectionCore.m_TemplateImage.Gray);
+
+            var nWidth = m_Tracks[nTrackID].m_InspectionCore.m_TemplateImage.Gray.Width;
+            var nHeight = m_Tracks[nTrackID].m_InspectionCore.m_TemplateImage.Gray.Height;
+            var nChanels = 1;
+            var buff = VisionAlgorithmInterface.VisionAlgorithm.MatToByteArray(m_Tracks[nTrackID].m_InspectionCore.m_TemplateImage.Gray);
+            VisionAlgorithmInterface.VisionAlgorithm.SendTemplateImage(buff, nWidth, nHeight, nChanels);
         }
 
 
@@ -451,6 +460,9 @@ namespace VisionApplication
         }
         public int ResetSequence(bool bEnableStepMode = true)
         {
+            if (m_hiWinRobotInterface == null)
+                return -1;
+
             lock (this)
             {
                 m_bMachineNotReadyNeedToReset = true;

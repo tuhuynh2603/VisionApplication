@@ -1,6 +1,7 @@
 ﻿
 using System.Windows;
 using System.Windows.Input;
+using VisionApplication.MVVM.ViewModel;
 namespace VisionApplication.MVVM.View
 {
     /// <summary>
@@ -28,8 +29,15 @@ namespace VisionApplication.MVVM.View
         {
             if (e.ChangedButton == MouseButton.Left)  // Only allow left-click drag                     
             {
+                MainWindowVM.IsMouseCapturedOnWindow = true;
+
                 this.DragMove();  // Moves the window
             }
+        }
+
+        private void Window_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            MainWindowVM.IsMouseCapturedOnWindow = false;
         }
     }
 }

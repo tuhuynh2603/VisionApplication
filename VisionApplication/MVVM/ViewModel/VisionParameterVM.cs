@@ -64,6 +64,7 @@ namespace VisionApplication.MVVM.ViewModel
         public void RegisterUserControl()
         {
             _dragDropVM.RegisterMoveGrid();
+            _dragDropVM.RegisterResizeGrid();
 
         }
 
@@ -92,27 +93,27 @@ namespace VisionApplication.MVVM.ViewModel
                                              CategoryVisionParameter param = new CategoryVisionParameter();
                                              param = categoriesVisionParam;
                                              SaveParameterDefault(param, SelectedCameraIndex, selectedPVIAreaIndex);
-                                             var data = await categoryVisionParameterService.GetParameterById(SelectedCameraIndex + 1, selectedPVIAreaIndex + 1);
-                                             if (data != null)
-                                             {
-                                                 try
-                                                 {
-                                                     await categoryVisionParameterService.UpdateParameter(param);
+                                             //var data = await categoryVisionParameterService.GetParameterById(SelectedCameraIndex + 1, selectedPVIAreaIndex + 1);
+                                             //if (data != null)
+                                             //{
+                                             //    try
+                                             //    {
+                                             //        await categoryVisionParameterService.UpdateParameter(param);
 
-                                                 }
-                                                 catch (Exception ex) { }
-                                             }
-                                             else
-                                             {
-                                                 try
-                                                 {
-                                                     await categoryVisionParameterService.AddParameter(param);
-                                                 }
-                                                 catch (Exception ex) {
+                                             //    }
+                                             //    catch (Exception ex) { }
+                                             //}
+                                             //else
+                                             //{
+                                             //    try
+                                             //    {
+                                             //        await categoryVisionParameterService.AddParameter(param);
+                                             //    }
+                                             //    catch (Exception ex) {
                                                      
-                                                 }
+                                             //    }
 
-                                             }
+                                             //}
                                          });
 
 

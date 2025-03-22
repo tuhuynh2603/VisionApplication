@@ -57,11 +57,18 @@ namespace VisionApplication.MVVM.ViewModel
                                                                                 return;
                                                                             }
 
-                                                                            MainWindowVM.master.m_Tracks[0].m_hIKControlCameraView.m_MyCamera.MV_CC_ClearImageBuffer_NET();
-                                                                            MainWindowVM.master.m_Tracks[0].m_hIKControlCameraView.m_MyCamera.MV_CC_CloseDevice_NET();
-                                                                            MainWindowVM.master.m_Tracks[0].m_hIKControlCameraView.m_MyCamera.MV_CC_DestroyDevice_NET();
-                                                                            MainWindowVM.master.m_BarcodeReader.CloseConnection();
-                                                                            MainWindowVM.master.m_hiWinRobotInterface.CloseConnection();
+                                                                            if (MainWindowVM.master.m_Tracks[0].m_hIKControlCameraView != null)
+                                                                            {
+                                                                                MainWindowVM.master.m_Tracks[0].m_hIKControlCameraView.m_MyCamera.MV_CC_ClearImageBuffer_NET();
+                                                                                MainWindowVM.master.m_Tracks[0].m_hIKControlCameraView.m_MyCamera.MV_CC_CloseDevice_NET();
+                                                                                MainWindowVM.master.m_Tracks[0].m_hIKControlCameraView.m_MyCamera.MV_CC_DestroyDevice_NET();
+                                                                            }
+
+                                                                            if(MainWindowVM.master.m_BarcodeReader != null)
+                                                                                MainWindowVM.master.m_BarcodeReader.CloseConnection();
+                                                                            
+                                                                            if(MainWindowVM.master.m_hiWinRobotInterface != null)
+                                                                                MainWindowVM.master.m_hiWinRobotInterface.CloseConnection();
                                                                             
                                                                             //MainWindow.m_IsWindowOpen = false;
                                                                             Master.ReleaseEventAndThread();

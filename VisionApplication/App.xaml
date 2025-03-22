@@ -2,12 +2,17 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:VisionApplication"
+             xmlns:converters="clr-namespace:VisionApplication.Converters"
+
              StartupUri="MVVM/View/MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="MVVM/View/Template/Ribbon.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+            <converters:ComboBoxVisibilityConverter x:Key="ComboBoxVisibilityConverter"/>
+            <converters:TextBoxVisibilityConverter x:Key="TextBoxVisibilityConverter"/>
         </ResourceDictionary>
+
     </Application.Resources>
 </Application>

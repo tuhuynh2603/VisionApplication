@@ -33,68 +33,56 @@ namespace VisionApplication.Hardware
             InitializeComponent();
             //m_txtRobotIPAddress = HiWinRobotInterface.m_strRobotIPAddress;
 
-            combo_JogType.Items.Clear();
-            combo_JogType.Items.Add("XYZ");
-            combo_JogType.Items.Add("Joint");
-            combo_JogType.SelectedIndex = 1;
-            SetMovingButtonLabel();
+            //combo_JogType.Items.Clear();
+            //combo_JogType.Items.Add("XYZ");
+            //combo_JogType.Items.Add("Joint");
+            //combo_JogType.SelectedIndex = 1;
+            //SetMovingButtonLabel();
 
-            combo_MoveTypes.Items.Add("Absolute");
-            combo_MoveTypes.Items.Add("Relative");
-            combo_MoveTypes.SelectedIndex = 1;
+            //combo_MoveTypes.Items.Add("Absolute");
+            //combo_MoveTypes.Items.Add("Relative");
+            //combo_MoveTypes.SelectedIndex = 1;
 
-            int bServoOnOff = HWinRobot.get_motor_state(HiWinRobotInterface.m_RobotConnectID);
-            toggle_ServoOnOff.IsChecked = bServoOnOff == 0 ? false : true;
-            if (HWinRobot.get_operation_mode(HiWinRobotInterface.m_RobotConnectID) == 0)
-            {
-                check_Manual.IsChecked = true;
-                check_Auto.IsChecked = false;
-            }
-            else
-            {
-                check_Manual.IsChecked = false;
-                check_Auto.IsChecked = true;
-            }
+            //int bServoOnOff = HWinRobot.get_motor_state(HiWinRobotInterface.m_RobotConnectID);
+            //toggle_ServoOnOff.IsChecked = bServoOnOff == 0 ? false : true;
+            //if (HWinRobot.get_operation_mode(HiWinRobotInterface.m_RobotConnectID) == 0)
+            //{
+            //    check_Manual.IsChecked = true;
+            //    check_Auto.IsChecked = false;
+            //}
+            //else
+            //{
+            //    check_Manual.IsChecked = false;
+            //    check_Auto.IsChecked = true;
+            //}
 
-            //m_nAccRatioPercentValue = 10;
-            //m_PTPSpeedPercentValue = 10;
-            //m_nLinearSpeedValue = 10;
-            //m_nOverridePercent = 10;
-            //m_nStepRelativeValue = 1000;
-
-            //slider_AccRatioPercent.Value = 10;
-            //slider_LinearSpeed.Value = 100;
-            //slider_PTPSpeedPercent.Value = 10;
-            //slider_OverridePercent.Value = 10;
-            //slider_StepRelative.Value = 1000;
-
-            slider_AccRatioPercentShow.Text = "10";
-            slider_LinearSpeedShow.Text = "100";
-            slider_PTPSpeedPercentShow.Text = "10";
-            slider_OverridePercentShow.Text = "10";
-            slider_StepRelativeShow.Text = "1000";
-            HIKRobotVM.m_List_sequencePointData = new List<SequencePointData>();
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.HOME_POSITION });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.READY_POSITION });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PRE_PICK_POSITION });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PICK_POSITION });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PRE_PASS_PLACE_POSITION });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PASS_PLACE_POSITION });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PRE_FAILED_BLACK_PLACE_POSITION });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PRE_FAILED_PLACE_POSITION });
+            //slider_AccRatioPercentShow.Text = "10";
+            //slider_LinearSpeedShow.Text = "100";
+            //slider_PTPSpeedPercentShow.Text = "10";
+            //slider_OverridePercentShow.Text = "10";
+            //slider_StepRelativeShow.Text = "1000";
+            //HIKRobotVM.m_List_sequencePointData = new List<SequencePointData>();
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.HOME_POSITION });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.READY_POSITION });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PRE_PICK_POSITION });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PICK_POSITION });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PRE_PASS_PLACE_POSITION });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PASS_PLACE_POSITION });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PRE_FAILED_BLACK_PLACE_POSITION });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.PRE_FAILED_PLACE_POSITION });
 
 
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_ROBOT_POSITION_1 });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_ROBOT_POSITION_2 });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_ROBOT_POSITION_3 });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_Vision_POSITION_1 });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_Vision_POSITION_2 });
-            HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_Vision_POSITION_3 });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_ROBOT_POSITION_1 });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_ROBOT_POSITION_2 });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_ROBOT_POSITION_3 });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_Vision_POSITION_1 });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_Vision_POSITION_2 });
+            //HIKRobotVM.m_List_sequencePointData.Add(new SequencePointData() { m_PointComment = SequencePointData.CALIB_Vision_POSITION_3 });
 
-            HiWinRobotInterface.SequencePointData.ReadRobotPointsFromExcel(ref HIKRobotVM.m_List_sequencePointData);
-            dataGrid_all_robot_Positions.ItemsSource = null;
-            dataGrid_all_robot_Positions.ItemsSource = HIKRobotVM.m_List_sequencePointData;
-            HIKRobotVM.Docalibration(HIKRobotVM.m_List_sequencePointData);
+            //HiWinRobotInterface.SequencePointData.ReadRobotPointsFromExcel(ref HIKRobotVM.m_List_sequencePointData);
+            //dataGrid_all_robot_Positions.ItemsSource = null;
+            //dataGrid_all_robot_Positions.ItemsSource = HIKRobotVM.m_List_sequencePointData;
+            //HIKRobotVM.Docalibration(HIKRobotVM.m_List_sequencePointData);
             //this.DataContext = this;
         }
 

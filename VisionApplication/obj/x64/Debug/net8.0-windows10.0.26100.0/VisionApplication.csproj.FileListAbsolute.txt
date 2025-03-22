@@ -252,3 +252,6 @@ C:\Wisely\C#\VisionApplication\VisionApplication\obj\x64\Debug\net8.0-windows10.
 C:\Wisely\C#\VisionApplication\VisionApplication\obj\x64\Debug\net8.0-windows10.0.26100.0\VisionApplication.pdb
 C:\Wisely\C#\VisionApplication\VisionApplication\obj\x64\Debug\net8.0-windows10.0.26100.0\VisionApplication.genruntimeconfig.cache
 C:\Wisely\C#\VisionApplication\VisionApplication\obj\x64\Debug\net8.0-windows10.0.26100.0\ref\VisionApplication.dll
+C:\Wisely\C#\VisionApplication\VisionApplication\obj\x64\Debug\net8.0-windows10.0.26100.0\MVVM\View\CustomVisionAlgorithmDialog.g.cs
+C:\Wisely\C#\VisionApplication\VisionApplication\obj\x64\Debug\net8.0-windows10.0.26100.0\MVVM\View\CustomVisionAlgorithmDialog.baml
+C:\Wisely\C#\VisionApplication\VisionApplication\bin\x64\Debug\net8.0-windows10.0.26100.0\Newtonsoft.Json.dll

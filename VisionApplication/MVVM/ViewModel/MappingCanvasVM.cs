@@ -51,26 +51,6 @@ namespace VisionApplication.MVVM.ViewModel
 
         public async Task SetMappingSize(double w, double h)
         {
-            int a = 1;
-            a = await Task<int>.Run(() =>
-            {
-
-                int k = 1;
-
-                for (int n = 0; n < 50000; n++)
-                {
-                    for (int m = 0; m < 10000; m++)
-                    {
-                        k++;
-                        Math.Sqrt(k * k);
-                    }
-                }
-                return 3;
-            });
-
-            a = 2;
-            a = 3;
-
             await App.Current.Dispatcher.InvokeAsync(async () =>
             {
                 MappingCanvasWidth = w;
@@ -78,9 +58,6 @@ namespace VisionApplication.MVVM.ViewModel
                 await InitCanvasMappingAsync();
 
             });
-
-
-
         }
 
 
@@ -112,9 +89,9 @@ namespace VisionApplication.MVVM.ViewModel
 
             int nWidthgrid = MappingCanvasWidth > 0 ? (int)MappingCanvasWidth : 500;
 
-            double m_nWidthMappingRect = (int)(nWidthgrid / nMaxDeviceStep / 2.2);
-            if (m_nWidthMappingRect > 100)
-                m_nWidthMappingRect = 100;
+            double m_nWidthMappingRect = (int)(nWidthgrid / nMaxDeviceStep / 1.2);
+            if (m_nWidthMappingRect > 1000)
+                m_nWidthMappingRect = 1000;
             if (m_nWidthMappingRect < 25)
                 m_nWidthMappingRect = 25;
 
@@ -132,7 +109,7 @@ namespace VisionApplication.MVVM.ViewModel
 
             List<Task> mappingRectangleVMTasks = new List<Task>();
             int nCount = 0;
-            for (int nTrack = 0; nTrack < 2; nTrack++)
+            for (int nTrack = 0; nTrack < AppMagnus.m_nDoc; nTrack++)
             {
 
                 for (int nDeviceX = 0; nDeviceX < _catergoryMappingParameters.M_NumberDeviceX; nDeviceX++)
@@ -155,6 +132,9 @@ namespace VisionApplication.MVVM.ViewModel
 
                             await App.Current.Dispatcher.InvokeAsync((Action)(async () =>
                              {
+                                 if (nCount1 > mappingRectangles.Count - 1 || nCount1 < 0)
+                                     return;
+
                                  mappingRectangles[nCount1].trackID = nTrackTemp;
                                  mappingRectangles[nCount1].imageWidth = 0.95 * m_nWidthMappingRect;
                                  mappingRectangles[nCount1].imageHeight = 0.95 * m_nWidthMappingRect;
@@ -164,8 +144,8 @@ namespace VisionApplication.MVVM.ViewModel
                                  mappingRectangles[nCount1].minMappingHeight = 0.95 * m_nWidthMappingRect;
                                  mappingRectangles[nCount1].imageLeft = m_nStepMappingRect * nDeviceXTemp + nTrackTemp * m_nWidthMappingRect * (_catergoryMappingParameters.M_NumberDeviceX + 1);
                                  mappingRectangles[nCount1].imageTop = m_nStepMappingRect * nDeviceYTemp;
-                                 mappingRectangles[nCount1].labelLeft = m_nStepMappingRect * nDeviceXTemp + nTrackTemp * m_nWidthMappingRect * (_catergoryMappingParameters.M_NumberDeviceX + 1);
-                                 mappingRectangles[nCount1].labelTop = m_nStepMappingRect * nDeviceYTemp + 0.95 * m_nWidthMappingRect / 9;
+                                 //mappingRectangles[nCount1].labelLeft = m_nStepMappingRect * nDeviceXTemp + nTrackTemp * m_nWidthMappingRect * (_catergoryMappingParameters.M_NumberDeviceX + 1);
+                                 //mappingRectangles[nCount1].labelTop = m_nStepMappingRect * nDeviceYTemp + 0.95 * m_nWidthMappingRect / 9;
                                  //Thread.Sleep(10);
 
                              }));

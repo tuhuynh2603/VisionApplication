@@ -104,13 +104,13 @@ namespace VisionApplication.MVVM.ViewModel
                                          {
 
                                              SaveTeachParameter();
-                                             var data = await categoryTeachParameterService.GetParameterById(SelectedCameraIndex + 1);
-                                             if (data != null)
-                                             {
-                                                 await categoryTeachParameterService.UpdateParameter(categoriesTeachParam);
-                                             }
-                                             else
-                                                 await categoryTeachParameterService.AddParameter(categoriesTeachParam);
+                                             //var data = await categoryTeachParameterService.GetParameterById(SelectedCameraIndex + 1);
+                                             //if (data != null)
+                                             //{
+                                             //    await categoryTeachParameterService.UpdateParameter(categoriesTeachParam);
+                                             //}
+                                             //else
+                                             //    await categoryTeachParameterService.AddParameter(categoriesTeachParam);
                                          });
 
             CancelCommand = new RelayCommand<TeachParameterVM>((p) => { return true; },

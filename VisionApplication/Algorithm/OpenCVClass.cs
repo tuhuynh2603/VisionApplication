@@ -822,6 +822,12 @@ namespace VisionApplication.Algorithm
             return true;
         }
 
+        public static bool VarThresholding(ref CvImage source, ref CvImage result, int color, int blockSize, double offset = 0)
+        {
+            CvInvoke.AdaptiveThreshold(source, result, 255, AdaptiveThresholdType.MeanC, (color == (int)OBJECT_COLOR.BLACK) ? ThresholdType.BinaryInv : ThresholdType.BinaryInv, blockSize, offset * ((color == (int)OBJECT_COLOR.BLACK) ? 1 : -1));
+            return true;
+        }
+
         // Threshold2 for Gray image
         public static bool Threshold2(ref CvImage imgGray, ref CvImage imgThreshold, int minThreshold, int maxThreshold)
         {
@@ -1581,10 +1587,6 @@ namespace VisionApplication.Algorithm
                 CvImage kernel = CvInvoke.GetStructuringElement(ElementShape.Ellipse, new Size(2 * nSmallRadius + 1, 2 * nSmallRadius + 1), new Point(nSmallRadius, nSmallRadius));
                 CvInvoke.MorphologyEx(result, result, MorphOp.Erode, kernel, new Point(-1, -1), iter * nTime, BorderType.Constant, CvInvoke.MorphologyDefaultBorderValue);
 
-                //for (int n = 0; n < nTime; n++)
-                //{
-                //    CvInvoke.MorphologyEx(result, result, MorphOp.Erode, kernel, new Point(-1, -1), iter, BorderType.Constant, CvInvoke.MorphologyDefaultBorderValue);
-                //}
                 if (nLastRadiusSize > 0)
                 {
                     kernel = CvInvoke.GetStructuringElement(ElementShape.Ellipse, new Size(2 * nSmallRadius + 1, 2 * nSmallRadius + 1), new Point(nSmallRadius, nSmallRadius));
@@ -1606,7 +1608,6 @@ namespace VisionApplication.Algorithm
                 DilationCircle_Magnus(ref source, ref img_MophoRegion, radius, iter);
                 ErodeCircle_Magnus(ref img_MophoRegion, ref result, radius, iter);
             }
-
         }
 
         public static void OpenningCircle_Magnus(ref CvImage source, ref CvImage result, int radius, int iter = 1)
@@ -1624,8 +1625,6 @@ namespace VisionApplication.Algorithm
             }
 
         }
-
-
 
         public static bool DilationCircle(ref CvImage source, ref CvImage result, int radius, int iter = 1)
         {

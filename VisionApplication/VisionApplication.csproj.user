@@ -13,11 +13,17 @@
     <Compile Update="Helper\LiveViewForm.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="MVVM\View\CustomVisionAlgorithmDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MVVM\View\MainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="MVVM\View\CustomVisionAlgorithmDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MVVM\View\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

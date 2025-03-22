@@ -75,6 +75,7 @@ namespace VisionApplication.MVVM.ViewModel
 
             SelectionChangedCommand = new DelegateCommand<SelectionChangedEventArgs>(OnSelectionChanged);
             listStepDebugInfors = new ObservableCollection<DebugInfors>();
+
             doStepDebugDelegate = DoStepDebug;
             stepDebugSizeChangedCmd = new DelegateCommand<Size?>(PerformstepDebugSizeChangedCmd);
         }

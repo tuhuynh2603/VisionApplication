@@ -18,6 +18,7 @@
         AllowDrop="True"
         Title="MainWindow"
         MouseDown="Window_MouseDown"
+        MouseUp ="Window_MouseUp"
         Margin="10">
 
     <Window.InputBindings>
@@ -314,6 +315,7 @@
                                                         Label="ROBOT Controller"
                                                         LargeImageSource="..\..\Resources/robot-industrial-custom.png"
                                                         Foreground="White"
+                                                        Visibility="Collapsed"
                                                         CheckedBackground="{StaticResource CheckedButtonStyle}"
                                                         MouseOverBackground="{StaticResource BgButton}"
                                                         
@@ -351,6 +353,7 @@
                                                         LargeImageSource="..\..\Resources/qrcode-scan-custom.png"
                                                         Foreground="White"                          
                                                         IsEnabled="true"
+                                                        Visibility="Collapsed"
                                                         IsChecked="False"
                                                         CheckedBackground="{StaticResource CheckedButtonStyle}"
                                                         MouseOverBackground="{StaticResource BgButton}" 
@@ -368,7 +371,8 @@
                                         </RibbonToggleButton>
 
                                         <Label x:Name="label_Barcode_Status"  Margin="0,0,0,0" FontSize="15" Grid.Row="1" Content="Disconnected" 
-                                                    VerticalContentAlignment="Top">
+                                                    VerticalContentAlignment="Top"
+                                               Visibility="Collapsed">
                                             <!--<Label.Foreground>
                                                 <SolidColorBrush Color="{Binding color_barcodeReaderStatus}">
                                                 </SolidColorBrush>
@@ -377,10 +381,10 @@
                                         </Label>
                                     </Grid>
 
-                                    <Grid Margin="0,0,0,-30">
+                                    <Grid Margin="0,0,0,00">
                                         <Grid.RowDefinitions>
                                             <RowDefinition Height="5*"></RowDefinition>
-                                            <RowDefinition Height="3*"></RowDefinition>
+                                            <RowDefinition Height="0*"></RowDefinition>
                                         </Grid.RowDefinitions>
                                         <RibbonToggleButton x:Name="btn_PLCCOMM_Setting" Grid.Row="0"
                                                         Label="PLC COMM Setting"
@@ -404,6 +408,7 @@
                                         </RibbonToggleButton>
 
                                         <Label x:Name="label_PLCCOMM_Status" FontSize="15" Grid.Row="1" 
+                                               Visibility="Collapsed"
                                                     Content="Disconnected" VerticalContentAlignment="Top"  HorizontalContentAlignment="Center"
                                                     >
                                         </Label>
@@ -436,6 +441,7 @@
                                         </RibbonToggleButton>
 
                                         <Label x:Name="label_Serial_Comm" FontSize="15" Grid.Row="1" 
+                                                    Visibility="Collapsed"
                                                     Content="Disconnected" VerticalContentAlignment="Top"  HorizontalContentAlignment="Center">
                                         </Label>
                                     </Grid>
@@ -710,6 +716,12 @@
                 <DataTemplate DataType="{x:Type viewmodel:RecipeManageVM}">
                     <view:RecipeManageView/>
                 </DataTemplate>
+
+                <DataTemplate DataType="{x:Type viewmodel:CustomVisionAlgorithmVM}">
+                    <view:CustomVisionAlgorithmDialog/>
+                </DataTemplate>
+
+                
             </Canvas.Resources>
 
             <!--<view:VisionParameterUC DataContext="{Binding mVisionParameterVM}"/>-->
@@ -730,6 +742,8 @@
             <template:DragDropUserControl DataContext="{Binding mVisionParameterVM}" />
             <template:DragDropUserControl DataContext="{Binding mTeachParameterVM}"/>
             <template:DragDropUserControl DataContext="{Binding mStepDebugVM}" />
+            <template:DragDropUserControl DataContext="{Binding mCustomVisionAlgorithmVM}" />
+
         </Canvas>
 
 

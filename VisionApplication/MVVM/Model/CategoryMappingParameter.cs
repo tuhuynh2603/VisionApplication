@@ -17,7 +17,7 @@ namespace VisionApplication.Model
         [Browsable(true)]
         [Category(CategoryMappingOrder)]
         [DisplayName("Number Device X")]
-        [Range(10, 100)]
+        [Range(1, 100)]
         [DefaultValue(10)]
         [Description("")]
         [PropertyOrder(0)]

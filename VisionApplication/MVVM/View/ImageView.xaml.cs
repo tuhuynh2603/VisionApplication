@@ -32,6 +32,7 @@ using Array = System.Array;
 using VisionApplication.Helper.UIImage;
 using MessageBox = System.Windows.MessageBox;
 using TextBox = System.Windows.Controls.TextBox;
+using Emgu.CV.Reg;
 
 namespace VisionApplication.MVVM.View
 {
@@ -135,12 +136,12 @@ namespace VisionApplication.MVVM.View
             switch (trackID)
             {
                 case 0:
-                    image = null;
+                    image.Source = null;
                     btmSource = null;
                     break;
                 case 1:
                 case 2:
-                    image = null;
+                    image.Source = null;
                     btmSource = null;
                     //bufer = Enumerable.Repeat((byte)0x2D, _imageWidth * _imageHeight).ToArray();
                     //btmSource = BitmapSource.Create(_imageWidth, _imageHeight, _dpi, _dpi,
@@ -163,7 +164,7 @@ namespace VisionApplication.MVVM.View
                 _stride = _imageWidth * 4;
                 bufferImage = new byte[_stride * _imageHeight];
                 btm.CopyPixels(bufferImage, _stride, 0);
-                UpdateSourceImageMono();
+                UpdateSourceImageMono(_imageWidth, _imageHeight);
 
                 // UpdateSourceImageColor(true);
                 // MainWindow.mainWindow.isInspectOffline = false;
@@ -241,11 +242,22 @@ namespace VisionApplication.MVVM.View
         {
             try
             {
-                CvImage matTemp = CvInvoke.Imread(pathImage, Emgu.CV.CvEnum.ImreadModes.Grayscale);
-                bufferImage = ConvertMonoMatToByteArray(matTemp);
+                CvImage matTemp = CvInvoke.Imread(pathImage, ImreadModes.Color);
+                //CvInvoke.Imshow("few", matTemp);
 
                 //UpdateUIImageMono(bufferImage);
-                UpdateSourceImageMono();
+                if (matTemp.NumberOfChannels == 1)
+                {
+                    bufferImage = ConvertMonoMatToByteArray(matTemp);
+                    UpdateSourceImageMono(matTemp.Width, matTemp.Height);
+                }
+                else
+                {
+                    //CvInvoke.CvtColor(matTemp, matTemp, Emgu.CV.CvEnum.ColorConversion.Bgra2Bgr);
+                    bufferImage = matTemp.ToImage<Bgr, byte>().Bytes;
+                    UpdateNewImageColor(bufferImage, matTemp.Width, matTemp.Height, 96);
+                }
+                    
                 return true;
             }
             catch (Exception)
@@ -294,11 +306,12 @@ namespace VisionApplication.MVVM.View
             return byteArrayMono;
         }
 
-        public void UpdateSourceImageMono(bool isOnline = false)
+        public void UpdateSourceImageMono( int Width, int Height,bool isOnline = false)
         {
             // //DebugMessage.WriteToDebugViewer(1, $"_imageWidth of track: {_imageWidth}");
             ////DebugMessage.WriteToDebugViewer(1, $"_imageHeight of track: {_imageHeight}");
-
+            _imageWidth = Width;
+            _imageHeight = Height;
             lock (bufferImage)
             {
                 //DebugMessage.WriteToDebugViewer(1, $"Start - Buffer camera:");
@@ -309,7 +322,7 @@ namespace VisionApplication.MVVM.View
                     if (enableGray < 1)
                     {
                         IntPtr ptr = Marshal.UnsafeAddrOfPinnedArrayElement(bufferImage, 0);
-                        System.Drawing.Bitmap bitmap1 = new System.Drawing.Bitmap(_imageWidth, _imageHeight, _imageWidth,
+                        System.Drawing.Bitmap bitmap1 = new System.Drawing.Bitmap(Width, Height, Width,
                             System.Drawing.Imaging.PixelFormat.Format8bppIndexed, ptr);
                         System.Drawing.Imaging.ColorPalette cp = bitmap1.Palette;
                         for (int i = 0; i < 256; i++)
@@ -325,7 +338,7 @@ namespace VisionApplication.MVVM.View
                             bitmapimage.BeginInit();
                             bitmapimage.CacheOption = BitmapCacheOption.OnLoad;
                             bitmapimage.StreamSource = stream;
-                            bitmapimage.DecodePixelWidth = _imageWidth;
+                            bitmapimage.DecodePixelWidth = Width;
                             bitmapimage.EndInit();
                             bitmapimage.Freeze();
                             image?.Dispatcher.Invoke((Action)delegate
@@ -343,8 +356,8 @@ namespace VisionApplication.MVVM.View
                             return;
                         image?.Dispatcher.Invoke((Action)delegate
                         {
-                            image.Source = BitmapSource.Create(_imageWidth, _imageHeight, _dpi, _dpi,
-                                PixelFormats.Gray8, BitmapPalettes.Gray256, bufferConvert, (PixelFormats.Gray8.BitsPerPixel + 7) / 8 * _imageWidth);
+                            image.Source = BitmapSource.Create(Width, Height, _dpi, _dpi,
+                                PixelFormats.Gray8, BitmapPalettes.Gray256, bufferConvert, (PixelFormats.Gray8.BitsPerPixel + 7) / 8 * Width);
                         });
                     }
                     stopwatch.Stop();
@@ -353,10 +366,10 @@ namespace VisionApplication.MVVM.View
                 {
                     if (enableGray < 1)
                     {
-                        image?.Dispatcher.Invoke(() =>
+                        image.Dispatcher.Invoke(() =>
                         {
-                            btmSource = BitmapSource.Create(_imageWidth, _imageHeight, _dpi, _dpi,
-                                PixelFormats.Gray8, BitmapPalettes.Gray256, bufferImage, (PixelFormats.Gray8.BitsPerPixel + 7) / 8 * _imageWidth);
+                            btmSource = BitmapSource.Create(Width, Height, _dpi, _dpi,
+                                PixelFormats.Gray8, BitmapPalettes.Gray256, bufferImage, (PixelFormats.Gray8.BitsPerPixel + 7) / 8 * Width);
                             image.Source = btmSource;
                         });
                         //DebugMessage.WriteToDebugViewer(1, $"enableGray: {enableGray}");
@@ -367,10 +380,10 @@ namespace VisionApplication.MVVM.View
                         //DebugMessage.WriteToDebugViewer(1, $"ConvertMonoToBinary: ");
                         if (bufferConvert.Length == 0)
                             return;
-                        image?.Dispatcher.Invoke(() =>
+                        image.Dispatcher.Invoke(() =>
                         {
-                            btmSource = BitmapSource.Create(_imageWidth, _imageHeight, _dpi, _dpi,
-                                PixelFormats.Gray8, BitmapPalettes.Gray256, bufferConvert, (PixelFormats.Gray8.BitsPerPixel + 7) / 8 * _imageWidth);
+                            btmSource = BitmapSource.Create(Width, Height, _dpi, _dpi,
+                                PixelFormats.Gray8, BitmapPalettes.Gray256, bufferConvert, (PixelFormats.Gray8.BitsPerPixel + 7) / 8 * Width);
                             image.Source = btmSource;
                         });
                         //DebugMessage.WriteToDebugViewer(1, $"ConvertMonoToBinary: ");
@@ -811,9 +824,7 @@ namespace VisionApplication.MVVM.View
             int index = diY * (stride) + diX;
 
             System.Drawing.PointF robotPoint = new System.Drawing.PointF(0, 0);
-            if (MainWindowVM.master.m_hiWinRobotInterface.m_hiWinRobotUserControl == null)
-                return;
-            if (MainWindowVM.master != null)
+            if (MainWindowVM.master != null && MainWindowVM.master.m_hiWinRobotInterface != null && MainWindowVM.master.m_hiWinRobotInterface.m_hiWinRobotUserControl != null)
                 robotPoint = Track.MagnusMatrix.ApplyTransformation(HIKRobotVM.m_MatCameraRobotTransform,  new System.Drawing.PointF(diX , diY));
 
             byte red = bufferImage[index < 0 ? 0 : index > size - 1 ? 0 : index];   // index overside
@@ -1093,13 +1104,11 @@ namespace VisionApplication.MVVM.View
             CategoryTeachParameter categoryTeachParameter = new CategoryTeachParameter();
             System.Windows.Application.Current.Dispatcher.Invoke((Action)delegate
             {
-
                 resultTeach.Children.Clear();
                 ClearOverlay();
                 loadTeachImageToUI(nTeachTrackID);
                 categoryTeachParameter = TeachParameterVM.ReloadTeachParameterUI(nTeachTrackID);
                 MainWindowVM.master.m_Tracks[nTeachTrackID].m_InspectionCore.UpdateTeachParamFromUIToInspectionCore(categoryTeachParameter, nTeachTrackID);
-
 
                 // update Vision area ROI 
                 L_PVIArea.Clear();
@@ -1244,7 +1253,6 @@ namespace VisionApplication.MVVM.View
             {
 
                 MainWindowVM.master.m_Tracks[nTeachTrackID].m_InspectionCore.UpdateTeachParamFromUIToInspectionCore(categoryTeachParameter, nTeachTrackID);
-
                 MainWindowVM.master.m_Tracks[nTeachTrackID].m_InspectionCore.SetTemplateImage();
                 MainWindowVM.master.SaveTemplateImage(nTeachTrackID);
                 MainWindowVM.master.WriteTeachParam(nTeachTrackID);
@@ -1265,7 +1273,6 @@ namespace VisionApplication.MVVM.View
 
                 MainWindowVM.master.m_Tracks[nTeachTrackID].m_InspectionCore.UpdateTeachParamFromUIToInspectionCore(categoryTeachParameter, nTeachTrackID);
                 MainWindowVM.master.m_Tracks[nTeachTrackID].m_InspectionCore.LoadTeachImageToInspectionCore(nTeachTrackID);
-                //MainWindowVM.master.LoadRecipe();
             }
 
             System.Windows.Application.Current.Dispatcher.Invoke((Action)delegate
@@ -1277,14 +1284,6 @@ namespace VisionApplication.MVVM.View
 
             });
         }
-
-
-        //public void SetTeachParameterToCategories()
-        //{
-        //    Application.categoriesTeachParam.L_DeviceLocationRoi = L_DeviceLocationRoi_Temp;
-        //    Application.categoriesTeachParam.L_TemplateRoi = L_TemplateRoi_Temp;
-        //    Application.categoriesTeachParam.L_CornerIndex = L_CornerIndex_Temp;
-        //}
 
         Rectangles GetRectangle()
         {

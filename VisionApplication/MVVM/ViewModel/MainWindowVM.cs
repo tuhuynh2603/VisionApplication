@@ -74,14 +74,7 @@ namespace VisionApplication.MVVM.ViewModel
         private LayoutAnchorablePane m_MappingViewPane;
         private LayoutAnchorable m_MappingViewDoc;
 
-
-        private Point _startPositionDlg;
-        private System.Windows.Vector _startOffsetPositionDlg;
-
-        private Point _startWarningPositionDlg;
-        private System.Windows.Vector _startOffsetWarningPositionDlg;
-
-
+        public static bool IsMouseCapturedOnWindow = false;
         public static UISTate UICurrentState { get; internal set; }
 
 
@@ -195,40 +188,12 @@ namespace VisionApplication.MVVM.ViewModel
             ContrucUIComponent();
             MappingImageDockToAvalonDock();
 
-
             loadAllStatistic(true);
             updateCameraConnectionStatusDelegate = UpdateCameraConnectionStatus;
             zoomDocPanelDelegate = ZoomDocPanel;
             updateTitleDocDelegate = UpdateTitleDoc;
             loadAllStatisticDelegate = loadAllStatistic;
-
-
-
-
         }
-
-
-        //public void ConstructModels()
-        //{
-
-        //    mTitleBarVM = new TitleBarVM(this);
-        //    mLoginUserVM = new DragDropUserControlVM((p, mainVM) => new LoginUserVM(p, mainVM), this);
-        //    mSerialCommunicationVM = new DragDropUserControlVM((p, mainVM) => new SerialCommunicationVM(p, mainVM), this);
-        //    mPixelRulerVM = new DragDropUserControlVM((p, mainVM) => new PixelRulerVM(p, mainVM), this);
-        //    mPLCCOMMVM = new DragDropUserControlVM((p, mainVM) => new PLCCOMMVM(p, mainVM), this);
-        //    mHiwinRobotVM = new DragDropUserControlVM((p) => new HIKRobotVM(p));
-        //    mHIKControlCameraVM = new DragDropUserControlVM((p) => new HIKControlCameraVM(p));
-        //    mMappingSettingUCVM = new DragDropUserControlVM((p, mainVM, databaseContext) => new MappingSetingUCVM(p, mainVM, databaseContext), this, databaseContext);
-        //    mBarCodeReaderVM = new DragDropUserControlVM((p) => new BarcodeReaderVM(p));
-        //    mLotBarcodeDataTableVM = new DragDropUserControlVM((p, mainVM) => new LotBarcodeDatatableVM(p, mainVM), this);
-        //    mRecipeManageVM = new DragDropUserControlVM((p, mainVM) => new RecipeManageVM(p, mainVM), this);
-        //    mWarningMessageBoxVM = new DragDropUserControlVM((p) => new WarningMessageBoxVM(p));
-        //    mTeachParameterVM = new DragDropUserControlVM((p, databaseContext) => new TeachParameterVM(p, databaseContext), databaseContext);
-        //    mVisionParameterVM = new DragDropUserControlVM((p, databaseContext) => new VisionParameterVM(p, databaseContext), databaseContext);
-        //    mStepDebugVM = new DragDropUserControlVM((p) => new StepDebugVM(p));
-        //    inspectionTabVM = new InspectionTabVM(this);
-
-        //}
 
         public void ConstructModels()
         {
@@ -248,6 +213,7 @@ namespace VisionApplication.MVVM.ViewModel
             mVisionParameterVM = new DragDropUserControlVM((p, _, db) => new VisionParameterVM(p, db), dbContextInput: databaseContext);
             mStepDebugVM = new DragDropUserControlVM((p, _, _) => new StepDebugVM(p));
             inspectionTabVM = new InspectionTabVM(this);
+            mCustomVisionAlgorithmVM = new DragDropUserControlVM((p, mainVM, _) => new CustomVisionAlgorithmVM(p, mainVM), this);
         }
 
 
@@ -537,7 +503,7 @@ namespace VisionApplication.MVVM.ViewModel
         }
         public void func_loadAllStatistic(bool bResetSummary)
         {
-            for (int nT = 0; nT < 2; nT++)
+            for (int nT = 0; nT < AppMagnus.m_nTrack; nT++)
             {
                 LoadStatistic(nT, bResetSummary);
             }
@@ -933,7 +899,7 @@ namespace VisionApplication.MVVM.ViewModel
         private void Performbtn_Debug_sequence_CheckedCmd()
         {
             m_bEnableDebugSequence = true;
-            DatabaseContext.GetAllTrackVisionParam(databaseContext);
+            //DatabaseContext.GetAllTrackVisionParam(databaseContext);
 
         }
 
@@ -1347,7 +1313,7 @@ namespace VisionApplication.MVVM.ViewModel
 
         private void Performbtn_Robot_Controller_UncheckedCmd()
         {
-            mHiwinRobotVM.isVisible = Visibility.Collapsed;
+            mCustomVisionAlgorithmVM.isVisible = Visibility.Collapsed;
         }
 
         private ActionCommand btn_Robot_Controller_CheckedCmd1;
@@ -1367,9 +1333,9 @@ namespace VisionApplication.MVVM.ViewModel
 
         private void Performbtn_Robot_Controller_CheckedCmd()
         {
-            if (MainWindowVM.m_bSequenceRunning && false)
-                return;
-            mHiwinRobotVM.isVisible = Visibility.Visible;
+            //if (MainWindowVM.m_bSequenceRunning && false)
+            //    return;
+            mCustomVisionAlgorithmVM.isVisible = Visibility.Visible;
         }
 
         private bool isbtn_BinarizeChecked1 = false;
@@ -1636,6 +1602,18 @@ namespace VisionApplication.MVVM.ViewModel
             {
                 mRecipeManageVM1 = value;
                 OnPropertyChanged(nameof(mRecipeManageVM));
+            }
+        }
+
+        private DragDropUserControlVM mCustomVisionAlgorithmVM1;
+
+        public DragDropUserControlVM mCustomVisionAlgorithmVM
+        {
+            get => mCustomVisionAlgorithmVM1;
+            set
+            {
+                mCustomVisionAlgorithmVM1 = value;
+                OnPropertyChanged(nameof(mCustomVisionAlgorithmVM));
             }
         }
 

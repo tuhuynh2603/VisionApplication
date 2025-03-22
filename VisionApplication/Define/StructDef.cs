@@ -710,7 +710,7 @@ namespace VisionApplication.Define
     {
         CAMERA1 = 0,
         CAMERABARCODE = 1,
-        TOTALCAMERA = 2
+        TOTALCAMERA = 1
     }
 
     public enum RECTANGLETYPE:int

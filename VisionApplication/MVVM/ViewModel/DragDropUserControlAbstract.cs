@@ -146,14 +146,15 @@ namespace VisionApplication.MVVM.ViewModel
 
         private System.Windows.Point _startWarningPositionDlg;
         private System.Windows.Vector _startOffsetWarningPositionDlg;
-        bool bIsMouseCapture = false;
+        //public bool bIsMouseCapture = false;
         private void MouseDown(object e)
         {
+            LogMessage.OutDebugMessage($"MouseDown {MainWindowVM.IsMouseCapturedOnWindow}");
             _startWarningPositionDlg = Mouse.GetPosition(null);
             if (_startWarningPositionDlg.X != 0 && _startWarningPositionDlg.Y != 0)
             {
                 _startOffsetWarningPositionDlg = new Vector(translateTransformX, translateTransformY);
-                bIsMouseCapture = true;
+                MainWindowVM.IsMouseCapturedOnWindow = true;
                 (e as FrameworkElement).Cursor = System.Windows.Input.Cursors.Hand;
 
                 //grd_Warning_Setting.CaptureMouse();
@@ -161,7 +162,9 @@ namespace VisionApplication.MVVM.ViewModel
         }
         private void MouseMove(object e)
         {
-            if (bIsMouseCapture)
+            LogMessage.OutDebugMessage($"MouseMove {MainWindowVM.IsMouseCapturedOnWindow}");
+
+            if (MainWindowVM.IsMouseCapturedOnWindow)
             {
                 Vector offset = System.Windows.Point.Subtract(Mouse.GetPosition(null), _startWarningPositionDlg);
                 translateTransformX = _startOffsetWarningPositionDlg.X + offset.X;
@@ -171,7 +174,9 @@ namespace VisionApplication.MVVM.ViewModel
 
         private void MouseUp(object e)
         {
-            bIsMouseCapture = false;
+            //LogMessage.OutDebugMessage($"MouseDown {bIsMouseCapture}");
+
+            //bIsMouseCapture = false;
             (e as FrameworkElement).Cursor = System.Windows.Input.Cursors.Arrow;
         }
 
@@ -186,7 +191,7 @@ namespace VisionApplication.MVVM.ViewModel
 
         private void OnThumbDragDeltaRight(DragDeltaEventArgs e)
         {
-            if (bIsMouseCapture)
+            if (MainWindowVM.IsMouseCapturedOnWindow)
                 return;
 
             GridWidth += e.HorizontalChange;

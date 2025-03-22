@@ -11,7 +11,7 @@
     <!--<UserControl.DataContext>
         <ViewModel:VisionParameterVM></ViewModel:VisionParameterVM>
     </UserControl.DataContext>-->
-    <Grid>
+    <Grid Background="White">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition/>
@@ -62,7 +62,7 @@
 
             </Grid>
 
-        <StackPanel  Margin="50,-510,0,0" Orientation="Horizontal">
+        <StackPanel  Margin="50,-410,0,0" Orientation="Horizontal">
                 <ComboBox Height="25" x:Name="track_ComboBox" Foreground="Black" Width="120"
                       SelectedIndex="{Binding SelectedCameraIndex, Mode=TwoWay,
                 UpdateSourceTrigger=PropertyChanged}">

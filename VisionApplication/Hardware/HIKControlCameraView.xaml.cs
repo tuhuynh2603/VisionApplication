@@ -48,8 +48,8 @@ namespace VisionApplication.Hardware
         {
             InitializeComponent();
             //this.Closing += Window_Closing;
-
-            DeviceListAcq();
+            //Todo: Add later 
+            //DeviceListAcq();
 
 
 
@@ -154,7 +154,7 @@ namespace VisionApplication.Hardware
 
         private void bnEnum_Click(object sender, RoutedEventArgs e)
         {
-            DeviceListAcq();
+            //DeviceListAcq();
         }
 
         private void bnOpen_Click(object sender, RoutedEventArgs e)
